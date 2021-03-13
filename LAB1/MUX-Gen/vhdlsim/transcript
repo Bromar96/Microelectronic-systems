@@ -1,0 +1,228 @@
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vcom -reportprogress 300 -work work /home/ms21.4/Desktop/MUX-Gen/constants.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:39:44 on Mar 12,2021
+# vcom -reportprogress 300 -work work /home/ms21.4/Desktop/MUX-Gen/constants.vhd 
+# -- Loading package STANDARD
+# -- Compiling package CONSTANTS
+# End time: 13:39:44 on Mar 12,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.4/Desktop/MUX-Gen/iv.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:39:50 on Mar 12,2021
+# vcom -reportprogress 300 -work work /home/ms21.4/Desktop/MUX-Gen/iv.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity IV
+# -- Compiling architecture BEHAVIORAL of IV
+# -- Compiling configuration CFG_IV_BEHAVIORAL
+# -- Loading entity IV
+# -- Loading architecture BEHAVIORAL of IV
+# End time: 13:39:50 on Mar 12,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.4/Desktop/MUX-Gen/nd2.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:39:53 on Mar 12,2021
+# vcom -reportprogress 300 -work work /home/ms21.4/Desktop/MUX-Gen/nd2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity ND2
+# -- Compiling architecture ARCH1 of ND2
+# -- Compiling architecture ARCH2 of ND2
+# -- Loading entity ND2
+# -- Compiling configuration CFG_ND2_ARCH1
+# -- Loading entity ND2
+# -- Loading architecture ARCH1 of ND2
+# -- Compiling configuration CFG_ND2_ARCH2
+# -- Loading entity ND2
+# -- Loading architecture ARCH2 of ND2
+# End time: 13:39:53 on Mar 12,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.4/Desktop/MUX-Gen/mux21.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:39:55 on Mar 12,2021
+# vcom -reportprogress 300 -work work /home/ms21.4/Desktop/MUX-Gen/mux21.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21
+# -- Compiling architecture BEHAVIORAL_1 of MUX21
+# -- Compiling architecture BEHAVIORAL_2 of MUX21
+# -- Loading entity MUX21
+# -- Compiling architecture BEHAVIORAL_3 of MUX21
+# -- Loading entity MUX21
+# -- Compiling architecture STRUCTURAL of MUX21
+# -- Loading entity MUX21
+# -- Compiling configuration CFG_MUX21_BEHAVIORAL_1
+# -- Loading entity MUX21
+# -- Loading architecture BEHAVIORAL_1 of MUX21
+# -- Compiling configuration CFG_MUX21_BEHAVIORAL_2
+# -- Loading entity MUX21
+# -- Loading architecture BEHAVIORAL_2 of MUX21
+# -- Compiling configuration CFG_MUX21_BEHAVIORAL_3
+# -- Loading entity MUX21
+# -- Loading architecture BEHAVIORAL_3 of MUX21
+# -- Compiling configuration CFG_MUX21_STRUCTURAL
+# -- Loading entity MUX21
+# -- Loading architecture STRUCTURAL of MUX21
+# -- Loading entity IV
+# -- Loading entity ND2
+# -- Loading configuration cfg_iv_behavioral
+# -- Loading configuration cfg_nd2_arch2
+# End time: 13:39:55 on Mar 12,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.4/Desktop/MUX-Gen/mux21_generic.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:39:57 on Mar 12,2021
+# vcom -reportprogress 300 -work work /home/ms21.4/Desktop/MUX-Gen/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
+# -- Compiling architecture STRUCTURAL of MUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# -- Compiling configuration CFG_MUX21_GEN_BEHAVIORAL
+# -- Loading entity MUX21_GENERIC
+# -- Loading architecture BEHAVIORAL of MUX21_GENERIC
+# -- Compiling configuration CFG_MUX21_GEN_STRUCTURAL
+# -- Loading entity MUX21_GENERIC
+# -- Loading architecture STRUCTURAL of MUX21_GENERIC
+# -- Loading entity MUX21
+# -- Loading configuration cfg_mux21_structural
+# End time: 13:39:57 on Mar 12,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.4/Desktop/MUX-Gen/tb_mux21.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:40:00 on Mar 12,2021
+# vcom -reportprogress 300 -work work /home/ms21.4/Desktop/MUX-Gen/tb_mux21.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity TBMUX21
+# -- Compiling architecture TEST of TBMUX21
+# -- Compiling configuration MUX21TEST
+# -- Loading entity TBMUX21
+# -- Loading architecture TEST of TBMUX21
+# -- Loading entity MUX21
+# -- Loading configuration cfg_mux21_behavioral_1
+# -- Loading configuration cfg_mux21_behavioral_2
+# -- Loading configuration cfg_mux21_behavioral_3
+# -- Loading configuration cfg_mux21_structural
+# End time: 13:40:00 on Mar 12,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.4/Desktop/MUX-Gen/tb_mux21_generic.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:40:02 on Mar 12,2021
+# vcom -reportprogress 300 -work work /home/ms21.4/Desktop/MUX-Gen/tb_mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity TBMUX21_GENERIC
+# -- Compiling architecture TEST of TBMUX21_GENERIC
+# -- Compiling configuration MUX21GENTEST
+# -- Loading entity TBMUX21_GENERIC
+# -- Loading architecture TEST of TBMUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# -- Loading configuration cfg_mux21_gen_behavioral
+# -- Loading configuration cfg_mux21_gen_structural
+# End time: 13:40:03 on Mar 12,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.mux21gentest -t 10ps
+# vsim work.mux21gentest -t 10ps 
+# Start time: 13:40:26 on Mar 12,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.constants
+# Loading work.mux21gentest#1
+# Loading work.tbmux21_generic(test)#1
+# Loading work.cfg_mux21_gen_behavioral#1
+# Loading work.mux21_generic(behavioral)#1
+# Loading work.cfg_mux21_gen_structural#1
+# Loading work.mux21_generic(structural)#1
+# Loading work.cfg_mux21_structural#1
+# Loading work.mux21(structural)#1
+# Loading work.cfg_iv_behavioral#1
+# Loading work.iv(behavioral)#1
+# Loading work.cfg_nd2_arch2#1
+# Loading work.nd2(arch2)#1
+add wave *
+run 50 ns
+add wave -position insertpoint  \
+sim:/tbmux21_generic/U1/NBIT
+add wave -position insertpoint  \
+sim:/tbmux21_generic/U2/NBIT
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run 50 ns
+quit -sim
+# End time: 13:42:48 on Mar 12,2021, Elapsed time: 0:02:22
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.4/Desktop/MUX-Gen/tb_mux21_generic.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:42:54 on Mar 12,2021
+# vcom -reportprogress 300 -work work /home/ms21.4/Desktop/MUX-Gen/tb_mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity TBMUX21_GENERIC
+# -- Compiling architecture TEST of TBMUX21_GENERIC
+# -- Compiling configuration MUX21GENTEST
+# -- Loading entity TBMUX21_GENERIC
+# -- Loading architecture TEST of TBMUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# -- Loading configuration cfg_mux21_gen_behavioral
+# -- Loading configuration cfg_mux21_gen_structural
+# End time: 13:42:54 on Mar 12,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.mux21gentest
+# vsim -t 10ps work.mux21gentest 
+# Start time: 13:43:07 on Mar 12,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.constants
+# Loading work.mux21gentest#1
+# Loading work.tbmux21_generic(test)#1
+# Loading work.cfg_mux21_gen_behavioral#1
+# Loading work.mux21_generic(behavioral)#1
+# Loading work.cfg_mux21_gen_structural#1
+# Loading work.mux21_generic(structural)#1
+# Loading work.cfg_mux21_structural#1
+# Loading work.mux21(structural)#1
+# Loading work.cfg_iv_behavioral#1
+# Loading work.iv(behavioral)#1
+# Loading work.cfg_nd2_arch2#1
+# Loading work.nd2(arch2)#1
+run 50 ns
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+add wave *
+run 50 ns
+# End time: 13:44:05 on Mar 12,2021, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 0

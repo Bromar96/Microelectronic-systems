@@ -1,0 +1,2265 @@
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vcom -reportprogress 300 -work work /home/ms21.4/Desktop/RippleCarryAdder/constants.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:55:37 on Mar 12,2021
+# vcom -reportprogress 300 -work work /home/ms21.4/Desktop/RippleCarryAdder/constants.vhd 
+# -- Loading package STANDARD
+# -- Compiling package CONSTANTS
+# End time: 13:55:37 on Mar 12,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.4/Desktop/RippleCarryAdder/FA.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:55:40 on Mar 12,2021
+# vcom -reportprogress 300 -work work /home/ms21.4/Desktop/RippleCarryAdder/FA.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity FA
+# -- Compiling architecture Behavioural of FA
+# -- Compiling configuration FA_beh
+# -- Loading entity FA
+# -- Loading architecture Behavioural of FA
+# End time: 13:55:41 on Mar 12,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.4/Desktop/RippleCarryAdder/lfsr.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:55:43 on Mar 12,2021
+# vcom -reportprogress 300 -work work /home/ms21.4/Desktop/RippleCarryAdder/lfsr.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity LFSR16
+# -- Compiling architecture RTL of LFSR16
+# End time: 13:55:43 on Mar 12,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.4/Desktop/RippleCarryAdder/RCA.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:55:46 on Mar 12,2021
+# vcom -reportprogress 300 -work work /home/ms21.4/Desktop/RippleCarryAdder/RCA.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package CONSTANTS
+# -- Compiling entity RCA
+# ** Error: /home/ms21.4/Desktop/RippleCarryAdder/RCA.vhd(22): near "ns": (vcom-1576) expecting ';' or ')'.
+# End time: 13:55:46 on Mar 12,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.4/Desktop/RippleCarryAdder/RCA.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:56:24 on Mar 12,2021
+# vcom -reportprogress 300 -work work /home/ms21.4/Desktop/RippleCarryAdder/RCA.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package CONSTANTS
+# -- Compiling entity RCA
+# -- Compiling architecture Structural of RCA
+# -- Compiling architecture Behavioural of RCA
+# -- Loading entity RCA
+# -- Compiling configuration RCA_STR
+# -- Loading entity RCA
+# -- Loading architecture Structural of RCA
+# -- Loading entity FA
+# -- Loading configuration fa_beh
+# -- Compiling configuration RCA_Beh
+# -- Loading entity RCA
+# -- Loading architecture Behavioural of RCA
+# End time: 13:56:24 on Mar 12,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.4/Desktop/RippleCarryAdder/tb_rca.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:56:28 on Mar 12,2021
+# vcom -reportprogress 300 -work work /home/ms21.4/Desktop/RippleCarryAdder/tb_rca.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity TBRCA
+# -- Compiling architecture TEST of TBRCA
+# ** Error: /home/ms21.4/Desktop/RippleCarryAdder/tb_rca.vhd(21): near "ns": (vcom-1576) expecting ';' or ')'.
+# End time: 13:56:29 on Mar 12,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.4/Desktop/RippleCarryAdder/tb_rca.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:56:45 on Mar 12,2021
+# vcom -reportprogress 300 -work work /home/ms21.4/Desktop/RippleCarryAdder/tb_rca.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity TBRCA
+# -- Compiling architecture TEST of TBRCA
+# -- Compiling configuration RCATEST
+# -- Loading entity TBRCA
+# -- Loading architecture TEST of TBRCA
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity RCA
+# -- Loading entity LFSR16
+# -- Loading configuration rca_str
+# -- Loading configuration rca_beh
+# End time: 13:56:46 on Mar 12,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.rcatest -t 10ps
+# vsim work.rcatest -t 10ps 
+# Start time: 13:57:09 on Mar 12,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.constants
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.rcatest#1
+# Loading work.tbrca(test)#1
+# Loading work.rca_str#1
+# Loading work.rca(structural)#1
+# Loading work.fa_beh#1
+# Loading work.fa(behavioural)#1
+# Loading work.rca_str#2
+# Loading work.rca(structural)#2
+# Loading work.fa_beh#2
+# Loading work.fa(behavioural)#2
+# Loading work.rca_beh#1
+# Loading work.rca(behavioural)#1
+# Loading work.lfsr16(rtl)#1
+add wave *
+run 500 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 9500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 9500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 11500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 11500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 13500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 13500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 14500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 14500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 16500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 16500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 17500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 17500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 18500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 18500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 19500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 19500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 20500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 20500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 21500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 21500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 22500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 22500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 23500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 23500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 24500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 24500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 26500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 26500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 27500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 27500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 28500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 28500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 29500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 29500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 31500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 31500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 32500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 32500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 33500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 33500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 34500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 34500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 36500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 36500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 38500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 38500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 39500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 39500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 40500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 40500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 41500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 41500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 42500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 42500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 43500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 43500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 44500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 44500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 46500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 46500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 47500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 47500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 48500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 48500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 49500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 49500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 51500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 51500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 52500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 52500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 53500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 53500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 54500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 54500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 56500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 56500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 57500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 57500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 58500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 58500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 59500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 59500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 60500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 60500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 61500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 61500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 62500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 62500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 63500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 63500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 64500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 64500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 65500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 65500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 66500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 66500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 67500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 67500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 68500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 68500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 69500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 69500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 70500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 70500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 71500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 71500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 72500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 72500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 73500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 73500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 74500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 74500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 75500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 75500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 76500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 76500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 77500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 77500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 78500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 78500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 79500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 79500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 80500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 80500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 81500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 81500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 82500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 82500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 83500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 83500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 84500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 84500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 85500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 85500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 86500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 86500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 87500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 87500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 88500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 88500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 89500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 89500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 91500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 91500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 92500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 92500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 93500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 93500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 94500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 94500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 95500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 95500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 96500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 96500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 97500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 97500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 98500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 98500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 99500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 99500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 101500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 101500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 102500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 102500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 103500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 103500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 104500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 104500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 105500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 105500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 106500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 106500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 107500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 107500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 108500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 108500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 109500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 109500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 110500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 110500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 111500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 111500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 112500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 112500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 113500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 113500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 114500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 114500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 115500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 115500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 116500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 116500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 117500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 117500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 118500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 118500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 119500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 119500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 121500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 121500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 122500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 122500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 123500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 123500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 124500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 124500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 125500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 125500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 126500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 126500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 127500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 127500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 128500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 128500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 129500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 129500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 130500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 130500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 131500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 131500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 132500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 132500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 133500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 133500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 134500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 134500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 135500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 135500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 136500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 136500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 137500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 137500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 138500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 138500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 139500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 139500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 141500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 141500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 142500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 142500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 143500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 143500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 144500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 144500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 146500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 146500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 147500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 147500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 148500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 148500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 149500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 149500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 151500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 151500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 152500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 152500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 153500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 153500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 154500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 154500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 155500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 155500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 156500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 156500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 157500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 157500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 158500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 158500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 159500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 159500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 161500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 161500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 162500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 162500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 163500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 163500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 164500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 164500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 165500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 165500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 166500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 166500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 167500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 167500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 168500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 168500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 169500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 169500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 171500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 171500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 172500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 172500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 173500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 173500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 174500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 174500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 175500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 175500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 176500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 176500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 177500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 177500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 178500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 178500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 179500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 179500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 182500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 182500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 183500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 183500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 184500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 184500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 185500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 185500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 186500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 186500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 187500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 187500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 188500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 188500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 189500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 189500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 191500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 191500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 192500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 192500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 193500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 193500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 194500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 194500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 195500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 195500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 196500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 196500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 197500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 197500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 198500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 198500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 199500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 199500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 200500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 200500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 201500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 201500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 202500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 202500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 203500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 203500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 204500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 204500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 205500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 205500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 206500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 206500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 207500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 207500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 208500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 208500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 209500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 209500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 211500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 211500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 212500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 212500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 213500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 213500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 214500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 214500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 215500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 215500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 216500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 216500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 218500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 218500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 219500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 219500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 220500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 220500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 221500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 221500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 222500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 222500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 223500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 223500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 224500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 224500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 225500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 225500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 226500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 226500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 227500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 227500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 228500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 228500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 229500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 229500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 230500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 230500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 231500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 231500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 232500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 232500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 233500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 233500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 234500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 234500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 235500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 235500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 236500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 236500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 237500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 237500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 238500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 238500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 239500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 239500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 240500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 240500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 241500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 241500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 242500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 242500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 243500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 243500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 244500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 244500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 245500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 245500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 246500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 246500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 247500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 247500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 248500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 248500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 249500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 249500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 251500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 251500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 252500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 252500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 254500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 254500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 255500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 255500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 256500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 256500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 257500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 257500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 258500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 258500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 259500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 259500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 260500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 260500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 261500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 261500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 262500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 262500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 263500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 263500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 264500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 264500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 265500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 265500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 266500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 266500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 267500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 267500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 268500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 268500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 269500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 269500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 270500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 270500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 271500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 271500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 272500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 272500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 273500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 273500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 274500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 274500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 275500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 275500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 276500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 276500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 277500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 277500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 278500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 278500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 279500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 279500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 280500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 280500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 281500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 281500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 282500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 282500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 283500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 283500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 284500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 284500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 285500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 285500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 286500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 286500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 287500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 287500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 288500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 288500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 290500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 290500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 291500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 291500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 292500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 292500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 293500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 293500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 294500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 294500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 295500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 295500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 296500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 296500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 297500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 297500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 298500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 298500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 299500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 299500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 300500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 300500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 301500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 301500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 302500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 302500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 303500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 303500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 304500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 304500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 305500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 305500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 306500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 306500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 307500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 307500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 308500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 308500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 309500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 309500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 310500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 310500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 311500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 311500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 312500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 312500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 313500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 313500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 314500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 314500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 315500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 315500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 316500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 316500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 317500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 317500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 318500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 318500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 319500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 319500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 320500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 320500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 321500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 321500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 322500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 322500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 323500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 323500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 324500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 324500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 325500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 325500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 326500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 326500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 327500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 327500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 328500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 328500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 329500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 329500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 330500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 330500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 331500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 331500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 332500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 332500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 333500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 333500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 334500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 334500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 335500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 335500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 336500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 336500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 337500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 337500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 338500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 338500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 339500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 339500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 340500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 340500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 341500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 341500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 342500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 342500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 343500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 343500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 344500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 344500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 345500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 345500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 346500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 346500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 347500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 347500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 348500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 348500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 349500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 349500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 351500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 351500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 352500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 352500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 353500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 353500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 354500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 354500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 355500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 355500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 356500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 356500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 357500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 357500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 358500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 358500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 359500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 359500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 360500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 360500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 361500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 361500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 362500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 362500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 363500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 363500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 364500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 364500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 365500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 365500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 366500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 366500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 367500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 367500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 368500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 368500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 369500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 369500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 370500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 370500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 371500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 371500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 372500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 372500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 373500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 373500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 374500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 374500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 375500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 375500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 376500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 376500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 377500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 377500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 378500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 378500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 379500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 379500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 380500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 380500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 381500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 381500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 382500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 382500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 383500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 383500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 384500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 384500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 385500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 385500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 386500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 386500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 387500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 387500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 388500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 388500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 389500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 389500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 390500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 390500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 391500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 391500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 392500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 392500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 393500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 393500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 394500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 394500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 395500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 395500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 396500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 396500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 397500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 397500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 398500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 398500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 399500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 399500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 400500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 400500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 401500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 401500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 402500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 402500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 403500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 403500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 404500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 404500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 405500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 405500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 406500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 406500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 407500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 407500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 408500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 408500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 409500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 409500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 410500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 410500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 411500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 411500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 412500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 412500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 413500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 413500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 414500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 414500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 415500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 415500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 416500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 416500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 417500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 417500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 418500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 418500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 419500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 419500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 420500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 420500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 421500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 421500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 422500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 422500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 423500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 423500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 424500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 424500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 425500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 425500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 426500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 426500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 427500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 427500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 428500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 428500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 429500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 429500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 430500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 430500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 431500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 431500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 432500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 432500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 433500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 433500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 434500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 434500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 435500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 435500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 436500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 436500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 437500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 437500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 438500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 438500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 439500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 439500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 440500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 440500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 441500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 441500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 442500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 442500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 443500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 443500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 444500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 444500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 445500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 445500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 446500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 446500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 447500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 447500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 448500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 448500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 449500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 449500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 451500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 451500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 452500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 452500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 453500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 453500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 454500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 454500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 455500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 455500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 456500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 456500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 457500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 457500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 458500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 458500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 459500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 459500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 460500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 460500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 461500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 461500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 462500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 462500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 463500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 463500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 464500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 464500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 465500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 465500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 466500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 466500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 467500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 467500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 468500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 468500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 469500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 469500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 470500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 470500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 471500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 471500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 472500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 472500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 473500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 473500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 474500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 474500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 475500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 475500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 476500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 476500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 477500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 477500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 478500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 478500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 479500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 479500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 480500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 480500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 481500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 481500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 482500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 482500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 483500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 483500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 484500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 484500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 485500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 485500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 486500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 486500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 487500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 487500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 488500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 488500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 489500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 489500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 490500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 490500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 491500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 491500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 492500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 492500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 493500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 493500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 494500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 494500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 495500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 495500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 496500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 496500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 497500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 497500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 498500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 498500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 499500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 499500 ps  Iteration: 3  Instance: /tbrca/UADDER3
+quit -sim
+# End time: 13:58:47 on Mar 12,2021, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 1000
+vcom -reportprogress 300 -work work /home/ms21.4/Desktop/RippleCarryAdder/constants.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:58:51 on Mar 12,2021
+# vcom -reportprogress 300 -work work /home/ms21.4/Desktop/RippleCarryAdder/constants.vhd 
+# -- Loading package STANDARD
+# -- Compiling package CONSTANTS
+# End time: 13:58:51 on Mar 12,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.4/Desktop/RippleCarryAdder/FA.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:58:53 on Mar 12,2021
+# vcom -reportprogress 300 -work work /home/ms21.4/Desktop/RippleCarryAdder/FA.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity FA
+# -- Compiling architecture Behavioural of FA
+# -- Compiling configuration FA_beh
+# -- Loading entity FA
+# -- Loading architecture Behavioural of FA
+# End time: 13:58:53 on Mar 12,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.4/Desktop/RippleCarryAdder/lfsr.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:58:56 on Mar 12,2021
+# vcom -reportprogress 300 -work work /home/ms21.4/Desktop/RippleCarryAdder/lfsr.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity LFSR16
+# -- Compiling architecture RTL of LFSR16
+# End time: 13:58:56 on Mar 12,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.4/Desktop/RippleCarryAdder/RCA.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:58:58 on Mar 12,2021
+# vcom -reportprogress 300 -work work /home/ms21.4/Desktop/RippleCarryAdder/RCA.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package CONSTANTS
+# -- Compiling entity RCA
+# -- Compiling architecture Structural of RCA
+# -- Compiling architecture Behavioural of RCA
+# -- Loading entity RCA
+# -- Compiling configuration RCA_STR
+# -- Loading entity RCA
+# -- Loading architecture Structural of RCA
+# -- Loading entity FA
+# -- Loading configuration fa_beh
+# -- Compiling configuration RCA_Beh
+# -- Loading entity RCA
+# -- Loading architecture Behavioural of RCA
+# End time: 13:58:58 on Mar 12,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.4/Desktop/RippleCarryAdder/tb_rca.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:59:01 on Mar 12,2021
+# vcom -reportprogress 300 -work work /home/ms21.4/Desktop/RippleCarryAdder/tb_rca.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity TBRCA
+# -- Compiling architecture TEST of TBRCA
+# -- Compiling configuration RCATEST
+# -- Loading entity TBRCA
+# -- Loading architecture TEST of TBRCA
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity RCA
+# -- Loading entity LFSR16
+# -- Loading configuration rca_str
+# -- Loading configuration rca_beh
+# End time: 13:59:01 on Mar 12,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.rcatest
+# vsim -t 10ps work.rcatest 
+# Start time: 13:59:10 on Mar 12,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.constants
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.rcatest#1
+# Loading work.tbrca(test)#1
+# Loading work.rca_str#1
+# Loading work.rca(structural)#1
+# Loading work.fa_beh#1
+# Loading work.fa(behavioural)#1
+# Loading work.rca_str#2
+# Loading work.rca(structural)#2
+# Loading work.fa_beh#2
+# Loading work.fa(behavioural)#2
+# Loading work.rca_beh#1
+# Loading work.rca(behavioural)#1
+# Loading work.lfsr16(rtl)#1
+add wave *
+run 500 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbrca/UADDER3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbrca/UADDER3
+# End time: 14:00:09 on Mar 12,2021, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 2
