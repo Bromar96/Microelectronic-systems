@@ -71,56 +71,56 @@ begin  -- TEST
 
   begin  -- process test
 
-  A_i          <= "000001";
-  B_i          <= "000010";
+  A_i          <= x"0000000000000001";
+  B_i          <= x"0000000000000010";
   RST_n_i      <= '0';
   ---- ACC_EN_n_i   <= '0';  -- optional
   ACCUMULATE_i <= '1';                  -- seleziona ingresso FEEDBACK del mux
 
   wait for 12 ns;
 
-  A_i          <= "000001";
-  B_i          <= "000010";
+  A_i          <= x"0000000000000001";
+  B_i          <= x"0000000000000010";
   RST_n_i      <= '1';
   ---- ACC_EN_n_i   <= '0';   -- optional
   ACCUMULATE_i <= '1';                  -- seleziona ingresso FEEDBACK del mux
 
   wait for 7 ns;
 
-  A_i          <= "000001";
-  B_i          <= "000010";
+  A_i          <= x"0000000000000001";
+  B_i          <= x"0000000000000010";
   RST_n_i      <= '0';
   ---- ACC_EN_n_i   <= '0';   -- optional
   ACCUMULATE_i <= '0';                  -- seleziona ingresso B del mux
 
   wait for 12 ns;
 
-  A_i          <= "010000";
-  B_i          <= "000010";
+  A_i          <= x"0000000000000001";
+  B_i          <= x"0000000000000010";
   RST_n_i      <= '0';
   -- ACC_EN_n_i   <= '0';
   ACCUMULATE_i <= '0';                  -- seleziona ingresso FEEDBACK del mux
 
   wait for 19 ns;
 
-  A_i          <= "010000";
-  B_i          <= "000010";
+  A_i          <= x"0000000000000001";
+  B_i          <= x"0000000000000010";
   RST_n_i      <= '0';
   ---- ACC_EN_n_i   <= '1';    --- optional
   ACCUMULATE_i <= '1';                  -- seleziona ingresso FEEDBACK del mux
 
   wait for 20 ns;
 
-  A_i          <= "010000";
-  B_i          <= "000010";
+  A_i          <= x"0000000000000001";
+  B_i          <= x"0000000000000010";
   RST_n_i      <= '0';
   --- ACC_EN_n_i   <= '0'; -- optional
   ACCUMULATE_i <= '1';
 
   wait for 5 ns;
 
-  A_i          <= "010000";
-  B_i          <= "000010";
+  A_i          <= x"0000000000000001";
+  B_i          <= x"0000000000000010";
   RST_n_i      <= '1';
   --- ACC_EN_n_i   <= '0';  -- optional
   ACCUMULATE_i <= '0';

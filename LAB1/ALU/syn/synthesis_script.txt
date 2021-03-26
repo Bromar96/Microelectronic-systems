@@ -1,0 +1,6 @@
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB1/ALU/syn/constants.vhd}
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB1/ALU/syn/alu_type.vhd}
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB1/ALU/syn/alu.vhd}
+elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
+report_timing > ALU_timing.txt
+report_area > alu_area.txt

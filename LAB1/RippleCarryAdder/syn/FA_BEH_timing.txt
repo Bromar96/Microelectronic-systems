@@ -1,0 +1,38 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : FA
+Version: F-2011.09-SP3
+Date   : Thu Mar 18 10:09:54 2021
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: b (input port)
+  Endpoint: c_out (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FA                 5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  b (in)                                   0.00       0.00 f
+  U8/Z (XOR2_X1)                           0.08       0.08 f
+  U7/ZN (AOI22_X1)                         0.06       0.13 r
+  U6/ZN (INV_X1)                           0.02       0.15 f
+  c_out (out)                              0.00       0.15 f
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

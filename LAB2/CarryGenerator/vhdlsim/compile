@@ -1,0 +1,6 @@
+vcom constants.vhd
+vcom g_block.vhd
+vcom pg_block.vhd
+vcom pg_net.vhd
+vcom carry_gen.vhd
+vcom tb_carry_generator.vhd

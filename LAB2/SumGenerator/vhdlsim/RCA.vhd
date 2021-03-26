@@ -18,7 +18,7 @@ use WORK.CONSTANTS.ALL;
 
 entity RCA is
     generic(
-        size: integer:= NumBit;
+        size: integer:= NumBitBlock;
         delay_s: time:= DRCAS;
         delay_c: time:= DRCAC
     );

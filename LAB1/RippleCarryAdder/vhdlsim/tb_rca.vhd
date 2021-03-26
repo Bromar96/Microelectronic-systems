@@ -24,6 +24,7 @@ component RCA is
     port(
         a:      in std_logic_vector(size-1 downto 0);
         b:      in std_logic_vector(size-1 downto 0);
+		c_in:	in std_logic;
         c_out:  out std_logic;
         sum:    out std_logic_vector(size-1 downto 0)
     );
@@ -43,18 +44,18 @@ Begin
 
 -- Instanciate the ADDER without delay in the carry generation
   UADDER1: RCA 
-	   generic map (adder_size,0.02 ns, 0 ns) 
-	   port map (A, B, Co1,S1);
+	   generic map (adder_size,0.0 ns, 0 ns) 
+	   port map (A, B,'1',Co1,S1);
   
 -- Instanciate the ADDER with delay
   UADDER2: RCA 
 	   generic map (adder_size,0.02 ns, 0.02 ns)
-	   port map (A, B, Co2,S2);
+	   port map (A, B,'1', Co2,S2);
 
 -- Instanciate the ADDER behavioral
   UADDER3: RCA 
 	   generic map (adder_size,0.02 ns, 0.02 ns)
-	   port map (A, B, Co3,S3);
+	   port map (A, B,'0', Co3,S3);
   
 
 
