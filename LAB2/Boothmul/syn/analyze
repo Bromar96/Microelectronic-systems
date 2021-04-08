@@ -1,0 +1,22 @@
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB2/Boothmul/syn/constants.vhd}
+
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB2/Boothmul/syn/iv.vhd}
+
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB2/Boothmul/syn/nd2.vhd}
+
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB2/Boothmul/syn/mux21.vhd}
+
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB2/Boothmul/syn/mux21_generic.vhd}
+
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB2/Boothmul/syn/fa.vhd}
+
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB2/Boothmul/syn/rca.vhd}
+
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB2/Boothmul/syn/settler.vhd}
+
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB2/Boothmul/syn/enc3to3.vhd}
+
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB2/Boothmul/syn/mux51_generic.vhd}
+
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB2/Boothmul/syn/boothmul.vhd}
+

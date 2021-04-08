@@ -1,0 +1,77 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : P4Adder
+Version: F-2011.09-SP3
+Date   : Wed Apr  7 17:30:22 2021
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: A[3] (input port)
+  Endpoint: SUM[31] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  P4Adder            5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[3] (in)                                               0.00       0.00 f
+  CG/A[3] (CARRY_GENERATOR_NBIT32_NBLOCK4)                0.00       0.00 f
+  CG/pgport_3/A (PG_NET_29)                               0.00       0.00 f
+  CG/pgport_3/U1/Z (XOR2_X1)                              0.08       0.08 f
+  CG/pgport_3/P (PG_NET_29)                               0.00       0.08 f
+  CG/pgi_1_3/PIK (PG_BLOCK_0)                             0.00       0.08 f
+  CG/pgi_1_3/U3/ZN (AOI21_X1)                             0.05       0.13 r
+  CG/pgi_1_3/U2/ZN (INV_X1)                               0.02       0.15 f
+  CG/pgi_1_3/GIJ (PG_BLOCK_0)                             0.00       0.15 f
+  CG/gi_2_3/GIK (G_BLOCK_8)                               0.00       0.15 f
+  CG/gi_2_3/U2/ZN (AOI21_X1)                              0.05       0.20 r
+  CG/gi_2_3/U1/ZN (INV_X1)                                0.05       0.25 f
+  CG/gi_2_3/GIJ (G_BLOCK_8)                               0.00       0.25 f
+  CG/gi_3_7/GK1J (G_BLOCK_7)                              0.00       0.25 f
+  CG/gi_3_7/U2/ZN (AOI21_X1)                              0.06       0.31 r
+  CG/gi_3_7/U1/ZN (INV_X1)                                0.05       0.36 f
+  CG/gi_3_7/GIJ (G_BLOCK_7)                               0.00       0.36 f
+  CG/gi_4_15/GK1J (G_BLOCK_5)                             0.00       0.36 f
+  CG/gi_4_15/U2/ZN (AOI21_X1)                             0.06       0.42 r
+  CG/gi_4_15/U1/ZN (INV_X1)                               0.06       0.48 f
+  CG/gi_4_15/GIJ (G_BLOCK_5)                              0.00       0.48 f
+  CG/gi_5_27/GK1J (G_BLOCK_2)                             0.00       0.48 f
+  CG/gi_5_27/U2/ZN (AOI21_X1)                             0.06       0.54 r
+  CG/gi_5_27/U1/ZN (INV_X1)                               0.05       0.59 f
+  CG/gi_5_27/GIJ (G_BLOCK_2)                              0.00       0.59 f
+  CG/Co[7] (CARRY_GENERATOR_NBIT32_NBLOCK4)               0.00       0.59 f
+  SG/carries[7] (SUM_GENERATOR_N32_K4)                    0.00       0.59 f
+  SG/SBi_7/C_gen (SUM_BLOCK_K4_1)                         0.00       0.59 f
+  SG/SBi_7/MPX/SEL (MUX21_GENERIC_NBIT4_1)                0.00       0.59 f
+  SG/SBi_7/MPX/MUX21GENI_3/S (MUX21_1)                    0.00       0.59 f
+  SG/SBi_7/MPX/MUX21GENI_3/UIV/A (IV_1)                   0.00       0.59 f
+  SG/SBi_7/MPX/MUX21GENI_3/UIV/U1/ZN (INV_X1)             0.04       0.63 r
+  SG/SBi_7/MPX/MUX21GENI_3/UIV/Y (IV_1)                   0.00       0.63 r
+  SG/SBi_7/MPX/MUX21GENI_3/UND2/B (ND2_2)                 0.00       0.63 r
+  SG/SBi_7/MPX/MUX21GENI_3/UND2/U1/ZN (NAND2_X1)          0.03       0.65 f
+  SG/SBi_7/MPX/MUX21GENI_3/UND2/Y (ND2_2)                 0.00       0.65 f
+  SG/SBi_7/MPX/MUX21GENI_3/UND3/B (ND2_1)                 0.00       0.65 f
+  SG/SBi_7/MPX/MUX21GENI_3/UND3/U1/ZN (NAND2_X1)          0.02       0.67 r
+  SG/SBi_7/MPX/MUX21GENI_3/UND3/Y (ND2_1)                 0.00       0.67 r
+  SG/SBi_7/MPX/MUX21GENI_3/Y (MUX21_1)                    0.00       0.67 r
+  SG/SBi_7/MPX/Y[3] (MUX21_GENERIC_NBIT4_1)               0.00       0.67 r
+  SG/SBi_7/sum[3] (SUM_BLOCK_K4_1)                        0.00       0.67 r
+  SG/SUM[31] (SUM_GENERATOR_N32_K4)                       0.00       0.67 r
+  SUM[31] (out)                                           0.00       0.68 r
+  data arrival time                                                  0.68
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

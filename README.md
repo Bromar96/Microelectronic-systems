@@ -10,6 +10,8 @@
 	-Parametric Accumulator
 	-Behavioural ALU
 
-# LAB2: [TO BE COMPLETED]
+# LAB2: [COMPLETED]
 	-Parametric Sum Generator Block
 	-Parametric Sparse Tree Carry Generator 
+	-Parametric P4Adder
+	-Parametric BoothMultiplier

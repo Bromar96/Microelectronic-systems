@@ -1,0 +1,1293 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 10
+        -max_paths 10
+Design : BOOTHMUL_NBIT8
+Version: F-2011.09-SP3
+Date   : Thu Apr  8 09:18:30 2021
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: B_mp[2] (input port)
+  Endpoint: Y_mp[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_NBIT8     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  B_mp[2] (in)                                            0.00       0.00 f
+  enci_1/X[1] (ENC3TO3_3)                                 0.00       0.00 f
+  enci_1/U6/ZN (XNOR2_X1)                                 0.08       0.08 r
+  enci_1/U4/ZN (AOI21_X1)                                 0.05       0.13 f
+  enci_1/U3/ZN (INV_X4)                                   0.15       0.28 r
+  enci_1/Y[2] (ENC3TO3_3)                                 0.00       0.28 r
+  muxi_1/SEL[2] (MUX51_GENERIC_NBIT16_3)                  0.00       0.28 r
+  muxi_1/mux000/SEL (MUX21_GENERIC_NBIT16_12)             0.00       0.28 r
+  muxi_1/mux000/MUX21GENI_2/S (MUX21_190)                 0.00       0.28 r
+  muxi_1/mux000/MUX21GENI_2/UIV/A (IV_190)                0.00       0.28 r
+  muxi_1/mux000/MUX21GENI_2/UIV/U1/ZN (INV_X1)            0.05       0.33 f
+  muxi_1/mux000/MUX21GENI_2/UIV/Y (IV_190)                0.00       0.33 f
+  muxi_1/mux000/MUX21GENI_2/UND2/B (ND2_569)              0.00       0.33 f
+  muxi_1/mux000/MUX21GENI_2/UND2/U1/ZN (NAND2_X1)         0.03       0.36 r
+  muxi_1/mux000/MUX21GENI_2/UND2/Y (ND2_569)              0.00       0.36 r
+  muxi_1/mux000/MUX21GENI_2/UND3/B (ND2_568)              0.00       0.36 r
+  muxi_1/mux000/MUX21GENI_2/UND3/U1/ZN (NAND2_X1)         0.03       0.39 f
+  muxi_1/mux000/MUX21GENI_2/UND3/Y (ND2_568)              0.00       0.39 f
+  muxi_1/mux000/MUX21GENI_2/Y (MUX21_190)                 0.00       0.39 f
+  muxi_1/mux000/Y[2] (MUX21_GENERIC_NBIT16_12)            0.00       0.39 f
+  muxi_1/mux010/A[2] (MUX21_GENERIC_NBIT16_10)            0.00       0.39 f
+  muxi_1/mux010/MUX21GENI_2/A (MUX21_158)                 0.00       0.39 f
+  muxi_1/mux010/MUX21GENI_2/UND1/A (ND2_474)              0.00       0.39 f
+  muxi_1/mux010/MUX21GENI_2/UND1/U1/ZN (NAND2_X1)         0.03       0.41 r
+  muxi_1/mux010/MUX21GENI_2/UND1/Y (ND2_474)              0.00       0.41 r
+  muxi_1/mux010/MUX21GENI_2/UND3/A (ND2_472)              0.00       0.41 r
+  muxi_1/mux010/MUX21GENI_2/UND3/U1/ZN (NAND2_X1)         0.03       0.44 f
+  muxi_1/mux010/MUX21GENI_2/UND3/Y (ND2_472)              0.00       0.44 f
+  muxi_1/mux010/MUX21GENI_2/Y (MUX21_158)                 0.00       0.44 f
+  muxi_1/mux010/Y[2] (MUX21_GENERIC_NBIT16_10)            0.00       0.44 f
+  muxi_1/mux001/A[2] (MUX21_GENERIC_NBIT16_9)             0.00       0.44 f
+  muxi_1/mux001/MUX21GENI_2/A (MUX21_142)                 0.00       0.44 f
+  muxi_1/mux001/MUX21GENI_2/UND1/A (ND2_426)              0.00       0.44 f
+  muxi_1/mux001/MUX21GENI_2/UND1/U1/ZN (NAND2_X1)         0.03       0.47 r
+  muxi_1/mux001/MUX21GENI_2/UND1/Y (ND2_426)              0.00       0.47 r
+  muxi_1/mux001/MUX21GENI_2/UND3/A (ND2_424)              0.00       0.47 r
+  muxi_1/mux001/MUX21GENI_2/UND3/U1/ZN (NAND2_X1)         0.04       0.51 f
+  muxi_1/mux001/MUX21GENI_2/UND3/Y (ND2_424)              0.00       0.51 f
+  muxi_1/mux001/MUX21GENI_2/Y (MUX21_142)                 0.00       0.51 f
+  muxi_1/mux001/Y[2] (MUX21_GENERIC_NBIT16_9)             0.00       0.51 f
+  muxi_1/Y[2] (MUX51_GENERIC_NBIT16_3)                    0.00       0.51 f
+  rcai_1/a[2] (RCA_size16_0)                              0.00       0.51 f
+  rcai_1/fa_i_2/a (FA_46)                                 0.00       0.51 f
+  rcai_1/fa_i_2/U3/ZN (AOI22_X1)                          0.05       0.56 r
+  rcai_1/fa_i_2/U2/ZN (INV_X1)                            0.03       0.59 f
+  rcai_1/fa_i_2/c_out (FA_46)                             0.00       0.59 f
+  rcai_1/fa_i_3/c_in (FA_45)                              0.00       0.59 f
+  rcai_1/fa_i_3/U3/ZN (AOI22_X1)                          0.06       0.65 r
+  rcai_1/fa_i_3/U2/ZN (INV_X1)                            0.03       0.68 f
+  rcai_1/fa_i_3/c_out (FA_45)                             0.00       0.68 f
+  rcai_1/fa_i_4/c_in (FA_44)                              0.00       0.68 f
+  rcai_1/fa_i_4/U3/ZN (AOI22_X1)                          0.06       0.74 r
+  rcai_1/fa_i_4/U2/ZN (INV_X1)                            0.03       0.77 f
+  rcai_1/fa_i_4/c_out (FA_44)                             0.00       0.77 f
+  rcai_1/fa_i_5/c_in (FA_43)                              0.00       0.77 f
+  rcai_1/fa_i_5/U3/ZN (AOI22_X1)                          0.06       0.83 r
+  rcai_1/fa_i_5/U2/ZN (INV_X1)                            0.03       0.86 f
+  rcai_1/fa_i_5/c_out (FA_43)                             0.00       0.86 f
+  rcai_1/fa_i_6/c_in (FA_42)                              0.00       0.86 f
+  rcai_1/fa_i_6/U3/ZN (AOI22_X1)                          0.06       0.92 r
+  rcai_1/fa_i_6/U2/ZN (INV_X1)                            0.03       0.95 f
+  rcai_1/fa_i_6/c_out (FA_42)                             0.00       0.95 f
+  rcai_1/fa_i_7/c_in (FA_41)                              0.00       0.95 f
+  rcai_1/fa_i_7/U3/ZN (AOI22_X1)                          0.06       1.01 r
+  rcai_1/fa_i_7/U2/ZN (INV_X1)                            0.03       1.04 f
+  rcai_1/fa_i_7/c_out (FA_41)                             0.00       1.04 f
+  rcai_1/fa_i_8/c_in (FA_40)                              0.00       1.04 f
+  rcai_1/fa_i_8/U3/ZN (AOI22_X1)                          0.06       1.10 r
+  rcai_1/fa_i_8/U2/ZN (INV_X1)                            0.03       1.13 f
+  rcai_1/fa_i_8/c_out (FA_40)                             0.00       1.13 f
+  rcai_1/fa_i_9/c_in (FA_39)                              0.00       1.13 f
+  rcai_1/fa_i_9/U3/ZN (AOI22_X1)                          0.06       1.19 r
+  rcai_1/fa_i_9/U2/ZN (INV_X1)                            0.03       1.22 f
+  rcai_1/fa_i_9/c_out (FA_39)                             0.00       1.22 f
+  rcai_1/fa_i_10/c_in (FA_38)                             0.00       1.22 f
+  rcai_1/fa_i_10/U3/ZN (AOI22_X1)                         0.06       1.28 r
+  rcai_1/fa_i_10/U2/ZN (INV_X1)                           0.03       1.31 f
+  rcai_1/fa_i_10/c_out (FA_38)                            0.00       1.31 f
+  rcai_1/fa_i_11/c_in (FA_37)                             0.00       1.31 f
+  rcai_1/fa_i_11/U3/ZN (AOI22_X1)                         0.06       1.37 r
+  rcai_1/fa_i_11/U2/ZN (INV_X1)                           0.03       1.40 f
+  rcai_1/fa_i_11/c_out (FA_37)                            0.00       1.40 f
+  rcai_1/fa_i_12/c_in (FA_36)                             0.00       1.40 f
+  rcai_1/fa_i_12/U3/ZN (AOI22_X1)                         0.06       1.46 r
+  rcai_1/fa_i_12/U2/ZN (INV_X1)                           0.03       1.49 f
+  rcai_1/fa_i_12/c_out (FA_36)                            0.00       1.49 f
+  rcai_1/fa_i_13/c_in (FA_35)                             0.00       1.49 f
+  rcai_1/fa_i_13/U3/ZN (AOI22_X1)                         0.06       1.55 r
+  rcai_1/fa_i_13/U2/ZN (INV_X1)                           0.03       1.58 f
+  rcai_1/fa_i_13/c_out (FA_35)                            0.00       1.58 f
+  rcai_1/fa_i_14/c_in (FA_34)                             0.00       1.58 f
+  rcai_1/fa_i_14/U3/ZN (AOI22_X1)                         0.06       1.64 r
+  rcai_1/fa_i_14/U2/ZN (INV_X1)                           0.03       1.67 f
+  rcai_1/fa_i_14/c_out (FA_34)                            0.00       1.67 f
+  rcai_1/fa_i_15/c_in (FA_33)                             0.00       1.67 f
+  rcai_1/fa_i_15/U1/Z (XOR2_X1)                           0.07       1.74 f
+  rcai_1/fa_i_15/s (FA_33)                                0.00       1.74 f
+  rcai_1/sum[15] (RCA_size16_0)                           0.00       1.74 f
+  rcai_2/b[15] (RCA_size16_2)                             0.00       1.74 f
+  rcai_2/fa_i_15/b (FA_17)                                0.00       1.74 f
+  rcai_2/fa_i_15/U4/Z (XOR2_X1)                           0.08       1.83 f
+  rcai_2/fa_i_15/U1/Z (XOR2_X1)                           0.08       1.91 f
+  rcai_2/fa_i_15/s (FA_17)                                0.00       1.91 f
+  rcai_2/sum[15] (RCA_size16_2)                           0.00       1.91 f
+  rcai_3/b[15] (RCA_size16_1)                             0.00       1.91 f
+  rcai_3/fa_i_15/b (FA_1)                                 0.00       1.91 f
+  rcai_3/fa_i_15/U4/Z (XOR2_X1)                           0.08       1.99 f
+  rcai_3/fa_i_15/U1/Z (XOR2_X1)                           0.07       2.06 f
+  rcai_3/fa_i_15/s (FA_1)                                 0.00       2.06 f
+  rcai_3/sum[15] (RCA_size16_1)                           0.00       2.06 f
+  Y_mp[15] (out)                                          0.00       2.07 f
+  data arrival time                                                  2.07
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B_mp[1] (input port)
+  Endpoint: Y_mp[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_NBIT8     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  B_mp[1] (in)                                            0.00       0.00 f
+  enci_1/X[0] (ENC3TO3_3)                                 0.00       0.00 f
+  enci_1/U6/ZN (XNOR2_X1)                                 0.08       0.08 r
+  enci_1/U4/ZN (AOI21_X1)                                 0.05       0.13 f
+  enci_1/U3/ZN (INV_X4)                                   0.15       0.28 r
+  enci_1/Y[2] (ENC3TO3_3)                                 0.00       0.28 r
+  muxi_1/SEL[2] (MUX51_GENERIC_NBIT16_3)                  0.00       0.28 r
+  muxi_1/mux000/SEL (MUX21_GENERIC_NBIT16_12)             0.00       0.28 r
+  muxi_1/mux000/MUX21GENI_2/S (MUX21_190)                 0.00       0.28 r
+  muxi_1/mux000/MUX21GENI_2/UIV/A (IV_190)                0.00       0.28 r
+  muxi_1/mux000/MUX21GENI_2/UIV/U1/ZN (INV_X1)            0.05       0.33 f
+  muxi_1/mux000/MUX21GENI_2/UIV/Y (IV_190)                0.00       0.33 f
+  muxi_1/mux000/MUX21GENI_2/UND2/B (ND2_569)              0.00       0.33 f
+  muxi_1/mux000/MUX21GENI_2/UND2/U1/ZN (NAND2_X1)         0.03       0.36 r
+  muxi_1/mux000/MUX21GENI_2/UND2/Y (ND2_569)              0.00       0.36 r
+  muxi_1/mux000/MUX21GENI_2/UND3/B (ND2_568)              0.00       0.36 r
+  muxi_1/mux000/MUX21GENI_2/UND3/U1/ZN (NAND2_X1)         0.03       0.38 f
+  muxi_1/mux000/MUX21GENI_2/UND3/Y (ND2_568)              0.00       0.38 f
+  muxi_1/mux000/MUX21GENI_2/Y (MUX21_190)                 0.00       0.38 f
+  muxi_1/mux000/Y[2] (MUX21_GENERIC_NBIT16_12)            0.00       0.38 f
+  muxi_1/mux010/A[2] (MUX21_GENERIC_NBIT16_10)            0.00       0.38 f
+  muxi_1/mux010/MUX21GENI_2/A (MUX21_158)                 0.00       0.38 f
+  muxi_1/mux010/MUX21GENI_2/UND1/A (ND2_474)              0.00       0.38 f
+  muxi_1/mux010/MUX21GENI_2/UND1/U1/ZN (NAND2_X1)         0.03       0.41 r
+  muxi_1/mux010/MUX21GENI_2/UND1/Y (ND2_474)              0.00       0.41 r
+  muxi_1/mux010/MUX21GENI_2/UND3/A (ND2_472)              0.00       0.41 r
+  muxi_1/mux010/MUX21GENI_2/UND3/U1/ZN (NAND2_X1)         0.03       0.44 f
+  muxi_1/mux010/MUX21GENI_2/UND3/Y (ND2_472)              0.00       0.44 f
+  muxi_1/mux010/MUX21GENI_2/Y (MUX21_158)                 0.00       0.44 f
+  muxi_1/mux010/Y[2] (MUX21_GENERIC_NBIT16_10)            0.00       0.44 f
+  muxi_1/mux001/A[2] (MUX21_GENERIC_NBIT16_9)             0.00       0.44 f
+  muxi_1/mux001/MUX21GENI_2/A (MUX21_142)                 0.00       0.44 f
+  muxi_1/mux001/MUX21GENI_2/UND1/A (ND2_426)              0.00       0.44 f
+  muxi_1/mux001/MUX21GENI_2/UND1/U1/ZN (NAND2_X1)         0.03       0.47 r
+  muxi_1/mux001/MUX21GENI_2/UND1/Y (ND2_426)              0.00       0.47 r
+  muxi_1/mux001/MUX21GENI_2/UND3/A (ND2_424)              0.00       0.47 r
+  muxi_1/mux001/MUX21GENI_2/UND3/U1/ZN (NAND2_X1)         0.04       0.51 f
+  muxi_1/mux001/MUX21GENI_2/UND3/Y (ND2_424)              0.00       0.51 f
+  muxi_1/mux001/MUX21GENI_2/Y (MUX21_142)                 0.00       0.51 f
+  muxi_1/mux001/Y[2] (MUX21_GENERIC_NBIT16_9)             0.00       0.51 f
+  muxi_1/Y[2] (MUX51_GENERIC_NBIT16_3)                    0.00       0.51 f
+  rcai_1/a[2] (RCA_size16_0)                              0.00       0.51 f
+  rcai_1/fa_i_2/a (FA_46)                                 0.00       0.51 f
+  rcai_1/fa_i_2/U3/ZN (AOI22_X1)                          0.05       0.56 r
+  rcai_1/fa_i_2/U2/ZN (INV_X1)                            0.03       0.59 f
+  rcai_1/fa_i_2/c_out (FA_46)                             0.00       0.59 f
+  rcai_1/fa_i_3/c_in (FA_45)                              0.00       0.59 f
+  rcai_1/fa_i_3/U3/ZN (AOI22_X1)                          0.06       0.65 r
+  rcai_1/fa_i_3/U2/ZN (INV_X1)                            0.03       0.68 f
+  rcai_1/fa_i_3/c_out (FA_45)                             0.00       0.68 f
+  rcai_1/fa_i_4/c_in (FA_44)                              0.00       0.68 f
+  rcai_1/fa_i_4/U3/ZN (AOI22_X1)                          0.06       0.74 r
+  rcai_1/fa_i_4/U2/ZN (INV_X1)                            0.03       0.77 f
+  rcai_1/fa_i_4/c_out (FA_44)                             0.00       0.77 f
+  rcai_1/fa_i_5/c_in (FA_43)                              0.00       0.77 f
+  rcai_1/fa_i_5/U3/ZN (AOI22_X1)                          0.06       0.83 r
+  rcai_1/fa_i_5/U2/ZN (INV_X1)                            0.03       0.86 f
+  rcai_1/fa_i_5/c_out (FA_43)                             0.00       0.86 f
+  rcai_1/fa_i_6/c_in (FA_42)                              0.00       0.86 f
+  rcai_1/fa_i_6/U3/ZN (AOI22_X1)                          0.06       0.92 r
+  rcai_1/fa_i_6/U2/ZN (INV_X1)                            0.03       0.95 f
+  rcai_1/fa_i_6/c_out (FA_42)                             0.00       0.95 f
+  rcai_1/fa_i_7/c_in (FA_41)                              0.00       0.95 f
+  rcai_1/fa_i_7/U3/ZN (AOI22_X1)                          0.06       1.01 r
+  rcai_1/fa_i_7/U2/ZN (INV_X1)                            0.03       1.04 f
+  rcai_1/fa_i_7/c_out (FA_41)                             0.00       1.04 f
+  rcai_1/fa_i_8/c_in (FA_40)                              0.00       1.04 f
+  rcai_1/fa_i_8/U3/ZN (AOI22_X1)                          0.06       1.10 r
+  rcai_1/fa_i_8/U2/ZN (INV_X1)                            0.03       1.13 f
+  rcai_1/fa_i_8/c_out (FA_40)                             0.00       1.13 f
+  rcai_1/fa_i_9/c_in (FA_39)                              0.00       1.13 f
+  rcai_1/fa_i_9/U3/ZN (AOI22_X1)                          0.06       1.19 r
+  rcai_1/fa_i_9/U2/ZN (INV_X1)                            0.03       1.22 f
+  rcai_1/fa_i_9/c_out (FA_39)                             0.00       1.22 f
+  rcai_1/fa_i_10/c_in (FA_38)                             0.00       1.22 f
+  rcai_1/fa_i_10/U3/ZN (AOI22_X1)                         0.06       1.28 r
+  rcai_1/fa_i_10/U2/ZN (INV_X1)                           0.03       1.31 f
+  rcai_1/fa_i_10/c_out (FA_38)                            0.00       1.31 f
+  rcai_1/fa_i_11/c_in (FA_37)                             0.00       1.31 f
+  rcai_1/fa_i_11/U3/ZN (AOI22_X1)                         0.06       1.37 r
+  rcai_1/fa_i_11/U2/ZN (INV_X1)                           0.03       1.40 f
+  rcai_1/fa_i_11/c_out (FA_37)                            0.00       1.40 f
+  rcai_1/fa_i_12/c_in (FA_36)                             0.00       1.40 f
+  rcai_1/fa_i_12/U3/ZN (AOI22_X1)                         0.06       1.46 r
+  rcai_1/fa_i_12/U2/ZN (INV_X1)                           0.03       1.49 f
+  rcai_1/fa_i_12/c_out (FA_36)                            0.00       1.49 f
+  rcai_1/fa_i_13/c_in (FA_35)                             0.00       1.49 f
+  rcai_1/fa_i_13/U3/ZN (AOI22_X1)                         0.06       1.55 r
+  rcai_1/fa_i_13/U2/ZN (INV_X1)                           0.03       1.58 f
+  rcai_1/fa_i_13/c_out (FA_35)                            0.00       1.58 f
+  rcai_1/fa_i_14/c_in (FA_34)                             0.00       1.58 f
+  rcai_1/fa_i_14/U3/ZN (AOI22_X1)                         0.06       1.64 r
+  rcai_1/fa_i_14/U2/ZN (INV_X1)                           0.03       1.67 f
+  rcai_1/fa_i_14/c_out (FA_34)                            0.00       1.67 f
+  rcai_1/fa_i_15/c_in (FA_33)                             0.00       1.67 f
+  rcai_1/fa_i_15/U1/Z (XOR2_X1)                           0.07       1.74 f
+  rcai_1/fa_i_15/s (FA_33)                                0.00       1.74 f
+  rcai_1/sum[15] (RCA_size16_0)                           0.00       1.74 f
+  rcai_2/b[15] (RCA_size16_2)                             0.00       1.74 f
+  rcai_2/fa_i_15/b (FA_17)                                0.00       1.74 f
+  rcai_2/fa_i_15/U4/Z (XOR2_X1)                           0.08       1.82 f
+  rcai_2/fa_i_15/U1/Z (XOR2_X1)                           0.08       1.91 f
+  rcai_2/fa_i_15/s (FA_17)                                0.00       1.91 f
+  rcai_2/sum[15] (RCA_size16_2)                           0.00       1.91 f
+  rcai_3/b[15] (RCA_size16_1)                             0.00       1.91 f
+  rcai_3/fa_i_15/b (FA_1)                                 0.00       1.91 f
+  rcai_3/fa_i_15/U4/Z (XOR2_X1)                           0.08       1.99 f
+  rcai_3/fa_i_15/U1/Z (XOR2_X1)                           0.07       2.06 f
+  rcai_3/fa_i_15/s (FA_1)                                 0.00       2.06 f
+  rcai_3/sum[15] (RCA_size16_1)                           0.00       2.06 f
+  Y_mp[15] (out)                                          0.00       2.07 f
+  data arrival time                                                  2.07
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B_mp[0] (input port)
+  Endpoint: Y_mp[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_NBIT8     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  B_mp[0] (in)                                            0.00       0.00 f
+  enc0_0/X[1] (ENC3TO3_0)                                 0.00       0.00 f
+  enc0_0/U6/ZN (XNOR2_X1)                                 0.08       0.08 r
+  enc0_0/U4/ZN (AOI21_X1)                                 0.05       0.13 f
+  enc0_0/U3/ZN (INV_X4)                                   0.15       0.28 r
+  enc0_0/Y[2] (ENC3TO3_0)                                 0.00       0.28 r
+  mux0_0/SEL[2] (MUX51_GENERIC_NBIT16_0)                  0.00       0.28 r
+  mux0_0/mux000/SEL (MUX21_GENERIC_NBIT16_0)              0.00       0.28 r
+  mux0_0/mux000/MUX21GENI_3/S (MUX21_253)                 0.00       0.28 r
+  mux0_0/mux000/MUX21GENI_3/UIV/A (IV_253)                0.00       0.28 r
+  mux0_0/mux000/MUX21GENI_3/UIV/U1/ZN (INV_X1)            0.05       0.33 f
+  mux0_0/mux000/MUX21GENI_3/UIV/Y (IV_253)                0.00       0.33 f
+  mux0_0/mux000/MUX21GENI_3/UND2/B (ND2_758)              0.00       0.33 f
+  mux0_0/mux000/MUX21GENI_3/UND2/U1/ZN (NAND2_X1)         0.03       0.36 r
+  mux0_0/mux000/MUX21GENI_3/UND2/Y (ND2_758)              0.00       0.36 r
+  mux0_0/mux000/MUX21GENI_3/UND3/B (ND2_757)              0.00       0.36 r
+  mux0_0/mux000/MUX21GENI_3/UND3/U1/ZN (NAND2_X1)         0.03       0.39 f
+  mux0_0/mux000/MUX21GENI_3/UND3/Y (ND2_757)              0.00       0.39 f
+  mux0_0/mux000/MUX21GENI_3/Y (MUX21_253)                 0.00       0.39 f
+  mux0_0/mux000/Y[3] (MUX21_GENERIC_NBIT16_0)             0.00       0.39 f
+  mux0_0/mux010/A[3] (MUX21_GENERIC_NBIT16_14)            0.00       0.39 f
+  mux0_0/mux010/MUX21GENI_3/A (MUX21_221)                 0.00       0.39 f
+  mux0_0/mux010/MUX21GENI_3/UND1/A (ND2_663)              0.00       0.39 f
+  mux0_0/mux010/MUX21GENI_3/UND1/U1/ZN (NAND2_X1)         0.03       0.41 r
+  mux0_0/mux010/MUX21GENI_3/UND1/Y (ND2_663)              0.00       0.41 r
+  mux0_0/mux010/MUX21GENI_3/UND3/A (ND2_661)              0.00       0.41 r
+  mux0_0/mux010/MUX21GENI_3/UND3/U1/ZN (NAND2_X1)         0.03       0.44 f
+  mux0_0/mux010/MUX21GENI_3/UND3/Y (ND2_661)              0.00       0.44 f
+  mux0_0/mux010/MUX21GENI_3/Y (MUX21_221)                 0.00       0.44 f
+  mux0_0/mux010/Y[3] (MUX21_GENERIC_NBIT16_14)            0.00       0.44 f
+  mux0_0/mux001/A[3] (MUX21_GENERIC_NBIT16_13)            0.00       0.44 f
+  mux0_0/mux001/MUX21GENI_3/A (MUX21_205)                 0.00       0.44 f
+  mux0_0/mux001/MUX21GENI_3/UND1/A (ND2_615)              0.00       0.44 f
+  mux0_0/mux001/MUX21GENI_3/UND1/U1/ZN (NAND2_X1)         0.03       0.47 r
+  mux0_0/mux001/MUX21GENI_3/UND1/Y (ND2_615)              0.00       0.47 r
+  mux0_0/mux001/MUX21GENI_3/UND3/A (ND2_613)              0.00       0.47 r
+  mux0_0/mux001/MUX21GENI_3/UND3/U1/ZN (NAND2_X1)         0.04       0.51 f
+  mux0_0/mux001/MUX21GENI_3/UND3/Y (ND2_613)              0.00       0.51 f
+  mux0_0/mux001/MUX21GENI_3/Y (MUX21_205)                 0.00       0.51 f
+  mux0_0/mux001/Y[3] (MUX21_GENERIC_NBIT16_13)            0.00       0.51 f
+  mux0_0/Y[3] (MUX51_GENERIC_NBIT16_0)                    0.00       0.51 f
+  rcai_1/b[3] (RCA_size16_0)                              0.00       0.51 f
+  rcai_1/fa_i_3/b (FA_45)                                 0.00       0.51 f
+  rcai_1/fa_i_3/U4/Z (XOR2_X1)                            0.08       0.59 f
+  rcai_1/fa_i_3/U3/ZN (AOI22_X1)                          0.06       0.65 r
+  rcai_1/fa_i_3/U2/ZN (INV_X1)                            0.03       0.68 f
+  rcai_1/fa_i_3/c_out (FA_45)                             0.00       0.68 f
+  rcai_1/fa_i_4/c_in (FA_44)                              0.00       0.68 f
+  rcai_1/fa_i_4/U3/ZN (AOI22_X1)                          0.06       0.74 r
+  rcai_1/fa_i_4/U2/ZN (INV_X1)                            0.03       0.77 f
+  rcai_1/fa_i_4/c_out (FA_44)                             0.00       0.77 f
+  rcai_1/fa_i_5/c_in (FA_43)                              0.00       0.77 f
+  rcai_1/fa_i_5/U3/ZN (AOI22_X1)                          0.06       0.83 r
+  rcai_1/fa_i_5/U2/ZN (INV_X1)                            0.03       0.86 f
+  rcai_1/fa_i_5/c_out (FA_43)                             0.00       0.86 f
+  rcai_1/fa_i_6/c_in (FA_42)                              0.00       0.86 f
+  rcai_1/fa_i_6/U3/ZN (AOI22_X1)                          0.06       0.92 r
+  rcai_1/fa_i_6/U2/ZN (INV_X1)                            0.03       0.95 f
+  rcai_1/fa_i_6/c_out (FA_42)                             0.00       0.95 f
+  rcai_1/fa_i_7/c_in (FA_41)                              0.00       0.95 f
+  rcai_1/fa_i_7/U3/ZN (AOI22_X1)                          0.06       1.01 r
+  rcai_1/fa_i_7/U2/ZN (INV_X1)                            0.03       1.04 f
+  rcai_1/fa_i_7/c_out (FA_41)                             0.00       1.04 f
+  rcai_1/fa_i_8/c_in (FA_40)                              0.00       1.04 f
+  rcai_1/fa_i_8/U3/ZN (AOI22_X1)                          0.06       1.10 r
+  rcai_1/fa_i_8/U2/ZN (INV_X1)                            0.03       1.13 f
+  rcai_1/fa_i_8/c_out (FA_40)                             0.00       1.13 f
+  rcai_1/fa_i_9/c_in (FA_39)                              0.00       1.13 f
+  rcai_1/fa_i_9/U3/ZN (AOI22_X1)                          0.06       1.19 r
+  rcai_1/fa_i_9/U2/ZN (INV_X1)                            0.03       1.22 f
+  rcai_1/fa_i_9/c_out (FA_39)                             0.00       1.22 f
+  rcai_1/fa_i_10/c_in (FA_38)                             0.00       1.22 f
+  rcai_1/fa_i_10/U3/ZN (AOI22_X1)                         0.06       1.28 r
+  rcai_1/fa_i_10/U2/ZN (INV_X1)                           0.03       1.31 f
+  rcai_1/fa_i_10/c_out (FA_38)                            0.00       1.31 f
+  rcai_1/fa_i_11/c_in (FA_37)                             0.00       1.31 f
+  rcai_1/fa_i_11/U3/ZN (AOI22_X1)                         0.06       1.37 r
+  rcai_1/fa_i_11/U2/ZN (INV_X1)                           0.03       1.40 f
+  rcai_1/fa_i_11/c_out (FA_37)                            0.00       1.40 f
+  rcai_1/fa_i_12/c_in (FA_36)                             0.00       1.40 f
+  rcai_1/fa_i_12/U3/ZN (AOI22_X1)                         0.06       1.46 r
+  rcai_1/fa_i_12/U2/ZN (INV_X1)                           0.03       1.49 f
+  rcai_1/fa_i_12/c_out (FA_36)                            0.00       1.49 f
+  rcai_1/fa_i_13/c_in (FA_35)                             0.00       1.49 f
+  rcai_1/fa_i_13/U3/ZN (AOI22_X1)                         0.06       1.55 r
+  rcai_1/fa_i_13/U2/ZN (INV_X1)                           0.03       1.58 f
+  rcai_1/fa_i_13/c_out (FA_35)                            0.00       1.58 f
+  rcai_1/fa_i_14/c_in (FA_34)                             0.00       1.58 f
+  rcai_1/fa_i_14/U3/ZN (AOI22_X1)                         0.06       1.64 r
+  rcai_1/fa_i_14/U2/ZN (INV_X1)                           0.03       1.67 f
+  rcai_1/fa_i_14/c_out (FA_34)                            0.00       1.67 f
+  rcai_1/fa_i_15/c_in (FA_33)                             0.00       1.67 f
+  rcai_1/fa_i_15/U1/Z (XOR2_X1)                           0.07       1.74 f
+  rcai_1/fa_i_15/s (FA_33)                                0.00       1.74 f
+  rcai_1/sum[15] (RCA_size16_0)                           0.00       1.74 f
+  rcai_2/b[15] (RCA_size16_2)                             0.00       1.74 f
+  rcai_2/fa_i_15/b (FA_17)                                0.00       1.74 f
+  rcai_2/fa_i_15/U4/Z (XOR2_X1)                           0.08       1.82 f
+  rcai_2/fa_i_15/U1/Z (XOR2_X1)                           0.08       1.91 f
+  rcai_2/fa_i_15/s (FA_17)                                0.00       1.91 f
+  rcai_2/sum[15] (RCA_size16_2)                           0.00       1.91 f
+  rcai_3/b[15] (RCA_size16_1)                             0.00       1.91 f
+  rcai_3/fa_i_15/b (FA_1)                                 0.00       1.91 f
+  rcai_3/fa_i_15/U4/Z (XOR2_X1)                           0.08       1.99 f
+  rcai_3/fa_i_15/U1/Z (XOR2_X1)                           0.07       2.06 f
+  rcai_3/fa_i_15/s (FA_1)                                 0.00       2.06 f
+  rcai_3/sum[15] (RCA_size16_1)                           0.00       2.06 f
+  Y_mp[15] (out)                                          0.00       2.06 f
+  data arrival time                                                  2.06
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B_mp[0] (input port)
+  Endpoint: Y_mp[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_NBIT8     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  B_mp[0] (in)                                            0.00       0.00 f
+  enc0_0/X[1] (ENC3TO3_0)                                 0.00       0.00 f
+  enc0_0/U6/ZN (XNOR2_X1)                                 0.08       0.08 r
+  enc0_0/U4/ZN (AOI21_X1)                                 0.05       0.13 f
+  enc0_0/U3/ZN (INV_X4)                                   0.15       0.28 r
+  enc0_0/Y[2] (ENC3TO3_0)                                 0.00       0.28 r
+  mux0_0/SEL[2] (MUX51_GENERIC_NBIT16_0)                  0.00       0.28 r
+  mux0_0/mux000/SEL (MUX21_GENERIC_NBIT16_0)              0.00       0.28 r
+  mux0_0/mux000/MUX21GENI_2/S (MUX21_254)                 0.00       0.28 r
+  mux0_0/mux000/MUX21GENI_2/UIV/A (IV_254)                0.00       0.28 r
+  mux0_0/mux000/MUX21GENI_2/UIV/U1/ZN (INV_X1)            0.05       0.33 f
+  mux0_0/mux000/MUX21GENI_2/UIV/Y (IV_254)                0.00       0.33 f
+  mux0_0/mux000/MUX21GENI_2/UND2/B (ND2_761)              0.00       0.33 f
+  mux0_0/mux000/MUX21GENI_2/UND2/U1/ZN (NAND2_X1)         0.03       0.36 r
+  mux0_0/mux000/MUX21GENI_2/UND2/Y (ND2_761)              0.00       0.36 r
+  mux0_0/mux000/MUX21GENI_2/UND3/B (ND2_760)              0.00       0.36 r
+  mux0_0/mux000/MUX21GENI_2/UND3/U1/ZN (NAND2_X1)         0.03       0.39 f
+  mux0_0/mux000/MUX21GENI_2/UND3/Y (ND2_760)              0.00       0.39 f
+  mux0_0/mux000/MUX21GENI_2/Y (MUX21_254)                 0.00       0.39 f
+  mux0_0/mux000/Y[2] (MUX21_GENERIC_NBIT16_0)             0.00       0.39 f
+  mux0_0/mux010/A[2] (MUX21_GENERIC_NBIT16_14)            0.00       0.39 f
+  mux0_0/mux010/MUX21GENI_2/A (MUX21_222)                 0.00       0.39 f
+  mux0_0/mux010/MUX21GENI_2/UND1/A (ND2_666)              0.00       0.39 f
+  mux0_0/mux010/MUX21GENI_2/UND1/U1/ZN (NAND2_X1)         0.03       0.41 r
+  mux0_0/mux010/MUX21GENI_2/UND1/Y (ND2_666)              0.00       0.41 r
+  mux0_0/mux010/MUX21GENI_2/UND3/A (ND2_664)              0.00       0.41 r
+  mux0_0/mux010/MUX21GENI_2/UND3/U1/ZN (NAND2_X1)         0.03       0.44 f
+  mux0_0/mux010/MUX21GENI_2/UND3/Y (ND2_664)              0.00       0.44 f
+  mux0_0/mux010/MUX21GENI_2/Y (MUX21_222)                 0.00       0.44 f
+  mux0_0/mux010/Y[2] (MUX21_GENERIC_NBIT16_14)            0.00       0.44 f
+  mux0_0/mux001/A[2] (MUX21_GENERIC_NBIT16_13)            0.00       0.44 f
+  mux0_0/mux001/MUX21GENI_2/A (MUX21_206)                 0.00       0.44 f
+  mux0_0/mux001/MUX21GENI_2/UND1/A (ND2_618)              0.00       0.44 f
+  mux0_0/mux001/MUX21GENI_2/UND1/U1/ZN (NAND2_X1)         0.03       0.47 r
+  mux0_0/mux001/MUX21GENI_2/UND1/Y (ND2_618)              0.00       0.47 r
+  mux0_0/mux001/MUX21GENI_2/UND3/A (ND2_616)              0.00       0.47 r
+  mux0_0/mux001/MUX21GENI_2/UND3/U1/ZN (NAND2_X1)         0.04       0.51 f
+  mux0_0/mux001/MUX21GENI_2/UND3/Y (ND2_616)              0.00       0.51 f
+  mux0_0/mux001/MUX21GENI_2/Y (MUX21_206)                 0.00       0.51 f
+  mux0_0/mux001/Y[2] (MUX21_GENERIC_NBIT16_13)            0.00       0.51 f
+  mux0_0/Y[2] (MUX51_GENERIC_NBIT16_0)                    0.00       0.51 f
+  rcai_1/b[2] (RCA_size16_0)                              0.00       0.51 f
+  rcai_1/fa_i_2/b (FA_46)                                 0.00       0.51 f
+  rcai_1/fa_i_2/U3/ZN (AOI22_X1)                          0.05       0.56 r
+  rcai_1/fa_i_2/U2/ZN (INV_X1)                            0.03       0.59 f
+  rcai_1/fa_i_2/c_out (FA_46)                             0.00       0.59 f
+  rcai_1/fa_i_3/c_in (FA_45)                              0.00       0.59 f
+  rcai_1/fa_i_3/U3/ZN (AOI22_X1)                          0.06       0.65 r
+  rcai_1/fa_i_3/U2/ZN (INV_X1)                            0.03       0.68 f
+  rcai_1/fa_i_3/c_out (FA_45)                             0.00       0.68 f
+  rcai_1/fa_i_4/c_in (FA_44)                              0.00       0.68 f
+  rcai_1/fa_i_4/U3/ZN (AOI22_X1)                          0.06       0.74 r
+  rcai_1/fa_i_4/U2/ZN (INV_X1)                            0.03       0.77 f
+  rcai_1/fa_i_4/c_out (FA_44)                             0.00       0.77 f
+  rcai_1/fa_i_5/c_in (FA_43)                              0.00       0.77 f
+  rcai_1/fa_i_5/U3/ZN (AOI22_X1)                          0.06       0.83 r
+  rcai_1/fa_i_5/U2/ZN (INV_X1)                            0.03       0.86 f
+  rcai_1/fa_i_5/c_out (FA_43)                             0.00       0.86 f
+  rcai_1/fa_i_6/c_in (FA_42)                              0.00       0.86 f
+  rcai_1/fa_i_6/U3/ZN (AOI22_X1)                          0.06       0.92 r
+  rcai_1/fa_i_6/U2/ZN (INV_X1)                            0.03       0.95 f
+  rcai_1/fa_i_6/c_out (FA_42)                             0.00       0.95 f
+  rcai_1/fa_i_7/c_in (FA_41)                              0.00       0.95 f
+  rcai_1/fa_i_7/U3/ZN (AOI22_X1)                          0.06       1.01 r
+  rcai_1/fa_i_7/U2/ZN (INV_X1)                            0.03       1.04 f
+  rcai_1/fa_i_7/c_out (FA_41)                             0.00       1.04 f
+  rcai_1/fa_i_8/c_in (FA_40)                              0.00       1.04 f
+  rcai_1/fa_i_8/U3/ZN (AOI22_X1)                          0.06       1.10 r
+  rcai_1/fa_i_8/U2/ZN (INV_X1)                            0.03       1.13 f
+  rcai_1/fa_i_8/c_out (FA_40)                             0.00       1.13 f
+  rcai_1/fa_i_9/c_in (FA_39)                              0.00       1.13 f
+  rcai_1/fa_i_9/U3/ZN (AOI22_X1)                          0.06       1.19 r
+  rcai_1/fa_i_9/U2/ZN (INV_X1)                            0.03       1.22 f
+  rcai_1/fa_i_9/c_out (FA_39)                             0.00       1.22 f
+  rcai_1/fa_i_10/c_in (FA_38)                             0.00       1.22 f
+  rcai_1/fa_i_10/U3/ZN (AOI22_X1)                         0.06       1.28 r
+  rcai_1/fa_i_10/U2/ZN (INV_X1)                           0.03       1.31 f
+  rcai_1/fa_i_10/c_out (FA_38)                            0.00       1.31 f
+  rcai_1/fa_i_11/c_in (FA_37)                             0.00       1.31 f
+  rcai_1/fa_i_11/U3/ZN (AOI22_X1)                         0.06       1.37 r
+  rcai_1/fa_i_11/U2/ZN (INV_X1)                           0.03       1.40 f
+  rcai_1/fa_i_11/c_out (FA_37)                            0.00       1.40 f
+  rcai_1/fa_i_12/c_in (FA_36)                             0.00       1.40 f
+  rcai_1/fa_i_12/U3/ZN (AOI22_X1)                         0.06       1.46 r
+  rcai_1/fa_i_12/U2/ZN (INV_X1)                           0.03       1.49 f
+  rcai_1/fa_i_12/c_out (FA_36)                            0.00       1.49 f
+  rcai_1/fa_i_13/c_in (FA_35)                             0.00       1.49 f
+  rcai_1/fa_i_13/U3/ZN (AOI22_X1)                         0.06       1.55 r
+  rcai_1/fa_i_13/U2/ZN (INV_X1)                           0.03       1.58 f
+  rcai_1/fa_i_13/c_out (FA_35)                            0.00       1.58 f
+  rcai_1/fa_i_14/c_in (FA_34)                             0.00       1.58 f
+  rcai_1/fa_i_14/U3/ZN (AOI22_X1)                         0.06       1.64 r
+  rcai_1/fa_i_14/U2/ZN (INV_X1)                           0.03       1.66 f
+  rcai_1/fa_i_14/c_out (FA_34)                            0.00       1.66 f
+  rcai_1/fa_i_15/c_in (FA_33)                             0.00       1.66 f
+  rcai_1/fa_i_15/U1/Z (XOR2_X1)                           0.07       1.74 f
+  rcai_1/fa_i_15/s (FA_33)                                0.00       1.74 f
+  rcai_1/sum[15] (RCA_size16_0)                           0.00       1.74 f
+  rcai_2/b[15] (RCA_size16_2)                             0.00       1.74 f
+  rcai_2/fa_i_15/b (FA_17)                                0.00       1.74 f
+  rcai_2/fa_i_15/U4/Z (XOR2_X1)                           0.08       1.82 f
+  rcai_2/fa_i_15/U1/Z (XOR2_X1)                           0.08       1.90 f
+  rcai_2/fa_i_15/s (FA_17)                                0.00       1.90 f
+  rcai_2/sum[15] (RCA_size16_2)                           0.00       1.90 f
+  rcai_3/b[15] (RCA_size16_1)                             0.00       1.90 f
+  rcai_3/fa_i_15/b (FA_1)                                 0.00       1.90 f
+  rcai_3/fa_i_15/U4/Z (XOR2_X1)                           0.08       1.99 f
+  rcai_3/fa_i_15/U1/Z (XOR2_X1)                           0.07       2.06 f
+  rcai_3/fa_i_15/s (FA_1)                                 0.00       2.06 f
+  rcai_3/sum[15] (RCA_size16_1)                           0.00       2.06 f
+  Y_mp[15] (out)                                          0.00       2.06 f
+  data arrival time                                                  2.06
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B_mp[2] (input port)
+  Endpoint: Y_mp[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_NBIT8     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  B_mp[2] (in)                                            0.00       0.00 f
+  enci_1/X[1] (ENC3TO3_3)                                 0.00       0.00 f
+  enci_1/U6/ZN (XNOR2_X1)                                 0.08       0.08 r
+  enci_1/U4/ZN (AOI21_X1)                                 0.05       0.13 f
+  enci_1/U3/ZN (INV_X4)                                   0.15       0.28 r
+  enci_1/Y[2] (ENC3TO3_3)                                 0.00       0.28 r
+  muxi_1/SEL[2] (MUX51_GENERIC_NBIT16_3)                  0.00       0.28 r
+  muxi_1/mux000/SEL (MUX21_GENERIC_NBIT16_12)             0.00       0.28 r
+  muxi_1/mux000/MUX21GENI_2/S (MUX21_190)                 0.00       0.28 r
+  muxi_1/mux000/MUX21GENI_2/UIV/A (IV_190)                0.00       0.28 r
+  muxi_1/mux000/MUX21GENI_2/UIV/U1/ZN (INV_X1)            0.05       0.33 f
+  muxi_1/mux000/MUX21GENI_2/UIV/Y (IV_190)                0.00       0.33 f
+  muxi_1/mux000/MUX21GENI_2/UND2/B (ND2_569)              0.00       0.33 f
+  muxi_1/mux000/MUX21GENI_2/UND2/U1/ZN (NAND2_X1)         0.03       0.36 r
+  muxi_1/mux000/MUX21GENI_2/UND2/Y (ND2_569)              0.00       0.36 r
+  muxi_1/mux000/MUX21GENI_2/UND3/B (ND2_568)              0.00       0.36 r
+  muxi_1/mux000/MUX21GENI_2/UND3/U1/ZN (NAND2_X1)         0.03       0.39 f
+  muxi_1/mux000/MUX21GENI_2/UND3/Y (ND2_568)              0.00       0.39 f
+  muxi_1/mux000/MUX21GENI_2/Y (MUX21_190)                 0.00       0.39 f
+  muxi_1/mux000/Y[2] (MUX21_GENERIC_NBIT16_12)            0.00       0.39 f
+  muxi_1/mux010/A[2] (MUX21_GENERIC_NBIT16_10)            0.00       0.39 f
+  muxi_1/mux010/MUX21GENI_2/A (MUX21_158)                 0.00       0.39 f
+  muxi_1/mux010/MUX21GENI_2/UND1/A (ND2_474)              0.00       0.39 f
+  muxi_1/mux010/MUX21GENI_2/UND1/U1/ZN (NAND2_X1)         0.03       0.41 r
+  muxi_1/mux010/MUX21GENI_2/UND1/Y (ND2_474)              0.00       0.41 r
+  muxi_1/mux010/MUX21GENI_2/UND3/A (ND2_472)              0.00       0.41 r
+  muxi_1/mux010/MUX21GENI_2/UND3/U1/ZN (NAND2_X1)         0.03       0.44 f
+  muxi_1/mux010/MUX21GENI_2/UND3/Y (ND2_472)              0.00       0.44 f
+  muxi_1/mux010/MUX21GENI_2/Y (MUX21_158)                 0.00       0.44 f
+  muxi_1/mux010/Y[2] (MUX21_GENERIC_NBIT16_10)            0.00       0.44 f
+  muxi_1/mux001/A[2] (MUX21_GENERIC_NBIT16_9)             0.00       0.44 f
+  muxi_1/mux001/MUX21GENI_2/A (MUX21_142)                 0.00       0.44 f
+  muxi_1/mux001/MUX21GENI_2/UND1/A (ND2_426)              0.00       0.44 f
+  muxi_1/mux001/MUX21GENI_2/UND1/U1/ZN (NAND2_X1)         0.03       0.47 r
+  muxi_1/mux001/MUX21GENI_2/UND1/Y (ND2_426)              0.00       0.47 r
+  muxi_1/mux001/MUX21GENI_2/UND3/A (ND2_424)              0.00       0.47 r
+  muxi_1/mux001/MUX21GENI_2/UND3/U1/ZN (NAND2_X1)         0.04       0.51 f
+  muxi_1/mux001/MUX21GENI_2/UND3/Y (ND2_424)              0.00       0.51 f
+  muxi_1/mux001/MUX21GENI_2/Y (MUX21_142)                 0.00       0.51 f
+  muxi_1/mux001/Y[2] (MUX21_GENERIC_NBIT16_9)             0.00       0.51 f
+  muxi_1/Y[2] (MUX51_GENERIC_NBIT16_3)                    0.00       0.51 f
+  rcai_1/a[2] (RCA_size16_0)                              0.00       0.51 f
+  rcai_1/fa_i_2/a (FA_46)                                 0.00       0.51 f
+  rcai_1/fa_i_2/U3/ZN (AOI22_X1)                          0.05       0.56 r
+  rcai_1/fa_i_2/U2/ZN (INV_X1)                            0.03       0.59 f
+  rcai_1/fa_i_2/c_out (FA_46)                             0.00       0.59 f
+  rcai_1/fa_i_3/c_in (FA_45)                              0.00       0.59 f
+  rcai_1/fa_i_3/U3/ZN (AOI22_X1)                          0.06       0.65 r
+  rcai_1/fa_i_3/U2/ZN (INV_X1)                            0.03       0.68 f
+  rcai_1/fa_i_3/c_out (FA_45)                             0.00       0.68 f
+  rcai_1/fa_i_4/c_in (FA_44)                              0.00       0.68 f
+  rcai_1/fa_i_4/U3/ZN (AOI22_X1)                          0.06       0.74 r
+  rcai_1/fa_i_4/U2/ZN (INV_X1)                            0.03       0.77 f
+  rcai_1/fa_i_4/c_out (FA_44)                             0.00       0.77 f
+  rcai_1/fa_i_5/c_in (FA_43)                              0.00       0.77 f
+  rcai_1/fa_i_5/U3/ZN (AOI22_X1)                          0.06       0.83 r
+  rcai_1/fa_i_5/U2/ZN (INV_X1)                            0.03       0.86 f
+  rcai_1/fa_i_5/c_out (FA_43)                             0.00       0.86 f
+  rcai_1/fa_i_6/c_in (FA_42)                              0.00       0.86 f
+  rcai_1/fa_i_6/U3/ZN (AOI22_X1)                          0.06       0.92 r
+  rcai_1/fa_i_6/U2/ZN (INV_X1)                            0.03       0.95 f
+  rcai_1/fa_i_6/c_out (FA_42)                             0.00       0.95 f
+  rcai_1/fa_i_7/c_in (FA_41)                              0.00       0.95 f
+  rcai_1/fa_i_7/U3/ZN (AOI22_X1)                          0.06       1.01 r
+  rcai_1/fa_i_7/U2/ZN (INV_X1)                            0.03       1.04 f
+  rcai_1/fa_i_7/c_out (FA_41)                             0.00       1.04 f
+  rcai_1/fa_i_8/c_in (FA_40)                              0.00       1.04 f
+  rcai_1/fa_i_8/U3/ZN (AOI22_X1)                          0.06       1.10 r
+  rcai_1/fa_i_8/U2/ZN (INV_X1)                            0.03       1.13 f
+  rcai_1/fa_i_8/c_out (FA_40)                             0.00       1.13 f
+  rcai_1/fa_i_9/c_in (FA_39)                              0.00       1.13 f
+  rcai_1/fa_i_9/U3/ZN (AOI22_X1)                          0.06       1.19 r
+  rcai_1/fa_i_9/U2/ZN (INV_X1)                            0.03       1.22 f
+  rcai_1/fa_i_9/c_out (FA_39)                             0.00       1.22 f
+  rcai_1/fa_i_10/c_in (FA_38)                             0.00       1.22 f
+  rcai_1/fa_i_10/U3/ZN (AOI22_X1)                         0.06       1.28 r
+  rcai_1/fa_i_10/U2/ZN (INV_X1)                           0.03       1.30 f
+  rcai_1/fa_i_10/c_out (FA_38)                            0.00       1.30 f
+  rcai_1/fa_i_11/c_in (FA_37)                             0.00       1.30 f
+  rcai_1/fa_i_11/U3/ZN (AOI22_X1)                         0.06       1.37 r
+  rcai_1/fa_i_11/U2/ZN (INV_X1)                           0.03       1.39 f
+  rcai_1/fa_i_11/c_out (FA_37)                            0.00       1.39 f
+  rcai_1/fa_i_12/c_in (FA_36)                             0.00       1.39 f
+  rcai_1/fa_i_12/U3/ZN (AOI22_X1)                         0.06       1.46 r
+  rcai_1/fa_i_12/U2/ZN (INV_X1)                           0.03       1.48 f
+  rcai_1/fa_i_12/c_out (FA_36)                            0.00       1.48 f
+  rcai_1/fa_i_13/c_in (FA_35)                             0.00       1.48 f
+  rcai_1/fa_i_13/U3/ZN (AOI22_X1)                         0.06       1.55 r
+  rcai_1/fa_i_13/U2/ZN (INV_X1)                           0.03       1.57 f
+  rcai_1/fa_i_13/c_out (FA_35)                            0.00       1.57 f
+  rcai_1/fa_i_14/c_in (FA_34)                             0.00       1.57 f
+  rcai_1/fa_i_14/U3/ZN (AOI22_X1)                         0.06       1.64 r
+  rcai_1/fa_i_14/U2/ZN (INV_X1)                           0.03       1.66 f
+  rcai_1/fa_i_14/c_out (FA_34)                            0.00       1.66 f
+  rcai_1/fa_i_15/c_in (FA_33)                             0.00       1.66 f
+  rcai_1/fa_i_15/U1/Z (XOR2_X1)                           0.07       1.74 f
+  rcai_1/fa_i_15/s (FA_33)                                0.00       1.74 f
+  rcai_1/sum[15] (RCA_size16_0)                           0.00       1.74 f
+  rcai_2/b[15] (RCA_size16_2)                             0.00       1.74 f
+  rcai_2/fa_i_15/b (FA_17)                                0.00       1.74 f
+  rcai_2/fa_i_15/U4/Z (XOR2_X1)                           0.08       1.82 f
+  rcai_2/fa_i_15/U1/Z (XOR2_X1)                           0.08       1.90 f
+  rcai_2/fa_i_15/s (FA_17)                                0.00       1.90 f
+  rcai_2/sum[15] (RCA_size16_2)                           0.00       1.90 f
+  rcai_3/b[15] (RCA_size16_1)                             0.00       1.90 f
+  rcai_3/fa_i_15/b (FA_1)                                 0.00       1.90 f
+  rcai_3/fa_i_15/U4/Z (XOR2_X1)                           0.08       1.99 f
+  rcai_3/fa_i_15/U1/Z (XOR2_X1)                           0.07       2.06 f
+  rcai_3/fa_i_15/s (FA_1)                                 0.00       2.06 f
+  rcai_3/sum[15] (RCA_size16_1)                           0.00       2.06 f
+  Y_mp[15] (out)                                          0.00       2.06 f
+  data arrival time                                                  2.06
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B_mp[2] (input port)
+  Endpoint: Y_mp[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_NBIT8     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  B_mp[2] (in)                                            0.00       0.00 f
+  enci_1/X[1] (ENC3TO3_3)                                 0.00       0.00 f
+  enci_1/U6/ZN (XNOR2_X1)                                 0.08       0.08 r
+  enci_1/U4/ZN (AOI21_X1)                                 0.05       0.13 f
+  enci_1/U3/ZN (INV_X4)                                   0.15       0.28 r
+  enci_1/Y[2] (ENC3TO3_3)                                 0.00       0.28 r
+  muxi_1/SEL[2] (MUX51_GENERIC_NBIT16_3)                  0.00       0.28 r
+  muxi_1/mux000/SEL (MUX21_GENERIC_NBIT16_12)             0.00       0.28 r
+  muxi_1/mux000/MUX21GENI_2/S (MUX21_190)                 0.00       0.28 r
+  muxi_1/mux000/MUX21GENI_2/UIV/A (IV_190)                0.00       0.28 r
+  muxi_1/mux000/MUX21GENI_2/UIV/U1/ZN (INV_X1)            0.05       0.33 f
+  muxi_1/mux000/MUX21GENI_2/UIV/Y (IV_190)                0.00       0.33 f
+  muxi_1/mux000/MUX21GENI_2/UND2/B (ND2_569)              0.00       0.33 f
+  muxi_1/mux000/MUX21GENI_2/UND2/U1/ZN (NAND2_X1)         0.03       0.36 r
+  muxi_1/mux000/MUX21GENI_2/UND2/Y (ND2_569)              0.00       0.36 r
+  muxi_1/mux000/MUX21GENI_2/UND3/B (ND2_568)              0.00       0.36 r
+  muxi_1/mux000/MUX21GENI_2/UND3/U1/ZN (NAND2_X1)         0.03       0.39 f
+  muxi_1/mux000/MUX21GENI_2/UND3/Y (ND2_568)              0.00       0.39 f
+  muxi_1/mux000/MUX21GENI_2/Y (MUX21_190)                 0.00       0.39 f
+  muxi_1/mux000/Y[2] (MUX21_GENERIC_NBIT16_12)            0.00       0.39 f
+  muxi_1/mux010/A[2] (MUX21_GENERIC_NBIT16_10)            0.00       0.39 f
+  muxi_1/mux010/MUX21GENI_2/A (MUX21_158)                 0.00       0.39 f
+  muxi_1/mux010/MUX21GENI_2/UND1/A (ND2_474)              0.00       0.39 f
+  muxi_1/mux010/MUX21GENI_2/UND1/U1/ZN (NAND2_X1)         0.03       0.41 r
+  muxi_1/mux010/MUX21GENI_2/UND1/Y (ND2_474)              0.00       0.41 r
+  muxi_1/mux010/MUX21GENI_2/UND3/A (ND2_472)              0.00       0.41 r
+  muxi_1/mux010/MUX21GENI_2/UND3/U1/ZN (NAND2_X1)         0.03       0.44 f
+  muxi_1/mux010/MUX21GENI_2/UND3/Y (ND2_472)              0.00       0.44 f
+  muxi_1/mux010/MUX21GENI_2/Y (MUX21_158)                 0.00       0.44 f
+  muxi_1/mux010/Y[2] (MUX21_GENERIC_NBIT16_10)            0.00       0.44 f
+  muxi_1/mux001/A[2] (MUX21_GENERIC_NBIT16_9)             0.00       0.44 f
+  muxi_1/mux001/MUX21GENI_2/A (MUX21_142)                 0.00       0.44 f
+  muxi_1/mux001/MUX21GENI_2/UND1/A (ND2_426)              0.00       0.44 f
+  muxi_1/mux001/MUX21GENI_2/UND1/U1/ZN (NAND2_X1)         0.03       0.47 r
+  muxi_1/mux001/MUX21GENI_2/UND1/Y (ND2_426)              0.00       0.47 r
+  muxi_1/mux001/MUX21GENI_2/UND3/A (ND2_424)              0.00       0.47 r
+  muxi_1/mux001/MUX21GENI_2/UND3/U1/ZN (NAND2_X1)         0.04       0.51 f
+  muxi_1/mux001/MUX21GENI_2/UND3/Y (ND2_424)              0.00       0.51 f
+  muxi_1/mux001/MUX21GENI_2/Y (MUX21_142)                 0.00       0.51 f
+  muxi_1/mux001/Y[2] (MUX21_GENERIC_NBIT16_9)             0.00       0.51 f
+  muxi_1/Y[2] (MUX51_GENERIC_NBIT16_3)                    0.00       0.51 f
+  rcai_1/a[2] (RCA_size16_0)                              0.00       0.51 f
+  rcai_1/fa_i_2/a (FA_46)                                 0.00       0.51 f
+  rcai_1/fa_i_2/U3/ZN (AOI22_X1)                          0.05       0.56 r
+  rcai_1/fa_i_2/U2/ZN (INV_X1)                            0.03       0.59 f
+  rcai_1/fa_i_2/c_out (FA_46)                             0.00       0.59 f
+  rcai_1/fa_i_3/c_in (FA_45)                              0.00       0.59 f
+  rcai_1/fa_i_3/U3/ZN (AOI22_X1)                          0.06       0.65 r
+  rcai_1/fa_i_3/U2/ZN (INV_X1)                            0.03       0.68 f
+  rcai_1/fa_i_3/c_out (FA_45)                             0.00       0.68 f
+  rcai_1/fa_i_4/c_in (FA_44)                              0.00       0.68 f
+  rcai_1/fa_i_4/U3/ZN (AOI22_X1)                          0.06       0.74 r
+  rcai_1/fa_i_4/U2/ZN (INV_X1)                            0.03       0.77 f
+  rcai_1/fa_i_4/c_out (FA_44)                             0.00       0.77 f
+  rcai_1/fa_i_5/c_in (FA_43)                              0.00       0.77 f
+  rcai_1/fa_i_5/U3/ZN (AOI22_X1)                          0.06       0.83 r
+  rcai_1/fa_i_5/U2/ZN (INV_X1)                            0.03       0.86 f
+  rcai_1/fa_i_5/c_out (FA_43)                             0.00       0.86 f
+  rcai_1/fa_i_6/c_in (FA_42)                              0.00       0.86 f
+  rcai_1/fa_i_6/U3/ZN (AOI22_X1)                          0.06       0.92 r
+  rcai_1/fa_i_6/U2/ZN (INV_X1)                            0.03       0.95 f
+  rcai_1/fa_i_6/c_out (FA_42)                             0.00       0.95 f
+  rcai_1/fa_i_7/c_in (FA_41)                              0.00       0.95 f
+  rcai_1/fa_i_7/U3/ZN (AOI22_X1)                          0.06       1.01 r
+  rcai_1/fa_i_7/U2/ZN (INV_X1)                            0.03       1.04 f
+  rcai_1/fa_i_7/c_out (FA_41)                             0.00       1.04 f
+  rcai_1/fa_i_8/c_in (FA_40)                              0.00       1.04 f
+  rcai_1/fa_i_8/U3/ZN (AOI22_X1)                          0.06       1.10 r
+  rcai_1/fa_i_8/U2/ZN (INV_X1)                            0.03       1.13 f
+  rcai_1/fa_i_8/c_out (FA_40)                             0.00       1.13 f
+  rcai_1/fa_i_9/c_in (FA_39)                              0.00       1.13 f
+  rcai_1/fa_i_9/U3/ZN (AOI22_X1)                          0.06       1.19 r
+  rcai_1/fa_i_9/U2/ZN (INV_X1)                            0.03       1.21 f
+  rcai_1/fa_i_9/c_out (FA_39)                             0.00       1.21 f
+  rcai_1/fa_i_10/c_in (FA_38)                             0.00       1.21 f
+  rcai_1/fa_i_10/U3/ZN (AOI22_X1)                         0.06       1.28 r
+  rcai_1/fa_i_10/U2/ZN (INV_X1)                           0.03       1.30 f
+  rcai_1/fa_i_10/c_out (FA_38)                            0.00       1.30 f
+  rcai_1/fa_i_11/c_in (FA_37)                             0.00       1.30 f
+  rcai_1/fa_i_11/U3/ZN (AOI22_X1)                         0.06       1.37 r
+  rcai_1/fa_i_11/U2/ZN (INV_X1)                           0.03       1.39 f
+  rcai_1/fa_i_11/c_out (FA_37)                            0.00       1.39 f
+  rcai_1/fa_i_12/c_in (FA_36)                             0.00       1.39 f
+  rcai_1/fa_i_12/U3/ZN (AOI22_X1)                         0.06       1.46 r
+  rcai_1/fa_i_12/U2/ZN (INV_X1)                           0.03       1.48 f
+  rcai_1/fa_i_12/c_out (FA_36)                            0.00       1.48 f
+  rcai_1/fa_i_13/c_in (FA_35)                             0.00       1.48 f
+  rcai_1/fa_i_13/U3/ZN (AOI22_X1)                         0.06       1.55 r
+  rcai_1/fa_i_13/U2/ZN (INV_X1)                           0.03       1.57 f
+  rcai_1/fa_i_13/c_out (FA_35)                            0.00       1.57 f
+  rcai_1/fa_i_14/c_in (FA_34)                             0.00       1.57 f
+  rcai_1/fa_i_14/U3/ZN (AOI22_X1)                         0.06       1.64 r
+  rcai_1/fa_i_14/U2/ZN (INV_X1)                           0.03       1.66 f
+  rcai_1/fa_i_14/c_out (FA_34)                            0.00       1.66 f
+  rcai_1/fa_i_15/c_in (FA_33)                             0.00       1.66 f
+  rcai_1/fa_i_15/U1/Z (XOR2_X1)                           0.07       1.74 f
+  rcai_1/fa_i_15/s (FA_33)                                0.00       1.74 f
+  rcai_1/sum[15] (RCA_size16_0)                           0.00       1.74 f
+  rcai_2/b[15] (RCA_size16_2)                             0.00       1.74 f
+  rcai_2/fa_i_15/b (FA_17)                                0.00       1.74 f
+  rcai_2/fa_i_15/U4/Z (XOR2_X1)                           0.08       1.82 f
+  rcai_2/fa_i_15/U1/Z (XOR2_X1)                           0.08       1.90 f
+  rcai_2/fa_i_15/s (FA_17)                                0.00       1.90 f
+  rcai_2/sum[15] (RCA_size16_2)                           0.00       1.90 f
+  rcai_3/b[15] (RCA_size16_1)                             0.00       1.90 f
+  rcai_3/fa_i_15/b (FA_1)                                 0.00       1.90 f
+  rcai_3/fa_i_15/U4/Z (XOR2_X1)                           0.08       1.99 f
+  rcai_3/fa_i_15/U1/Z (XOR2_X1)                           0.07       2.06 f
+  rcai_3/fa_i_15/s (FA_1)                                 0.00       2.06 f
+  rcai_3/sum[15] (RCA_size16_1)                           0.00       2.06 f
+  Y_mp[15] (out)                                          0.00       2.06 f
+  data arrival time                                                  2.06
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B_mp[2] (input port)
+  Endpoint: Y_mp[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_NBIT8     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  B_mp[2] (in)                                            0.00       0.00 f
+  enci_1/X[1] (ENC3TO3_3)                                 0.00       0.00 f
+  enci_1/U6/ZN (XNOR2_X1)                                 0.08       0.08 r
+  enci_1/U4/ZN (AOI21_X1)                                 0.05       0.13 f
+  enci_1/U3/ZN (INV_X4)                                   0.15       0.28 r
+  enci_1/Y[2] (ENC3TO3_3)                                 0.00       0.28 r
+  muxi_1/SEL[2] (MUX51_GENERIC_NBIT16_3)                  0.00       0.28 r
+  muxi_1/mux000/SEL (MUX21_GENERIC_NBIT16_12)             0.00       0.28 r
+  muxi_1/mux000/MUX21GENI_2/S (MUX21_190)                 0.00       0.28 r
+  muxi_1/mux000/MUX21GENI_2/UIV/A (IV_190)                0.00       0.28 r
+  muxi_1/mux000/MUX21GENI_2/UIV/U1/ZN (INV_X1)            0.05       0.33 f
+  muxi_1/mux000/MUX21GENI_2/UIV/Y (IV_190)                0.00       0.33 f
+  muxi_1/mux000/MUX21GENI_2/UND2/B (ND2_569)              0.00       0.33 f
+  muxi_1/mux000/MUX21GENI_2/UND2/U1/ZN (NAND2_X1)         0.03       0.36 r
+  muxi_1/mux000/MUX21GENI_2/UND2/Y (ND2_569)              0.00       0.36 r
+  muxi_1/mux000/MUX21GENI_2/UND3/B (ND2_568)              0.00       0.36 r
+  muxi_1/mux000/MUX21GENI_2/UND3/U1/ZN (NAND2_X1)         0.03       0.39 f
+  muxi_1/mux000/MUX21GENI_2/UND3/Y (ND2_568)              0.00       0.39 f
+  muxi_1/mux000/MUX21GENI_2/Y (MUX21_190)                 0.00       0.39 f
+  muxi_1/mux000/Y[2] (MUX21_GENERIC_NBIT16_12)            0.00       0.39 f
+  muxi_1/mux010/A[2] (MUX21_GENERIC_NBIT16_10)            0.00       0.39 f
+  muxi_1/mux010/MUX21GENI_2/A (MUX21_158)                 0.00       0.39 f
+  muxi_1/mux010/MUX21GENI_2/UND1/A (ND2_474)              0.00       0.39 f
+  muxi_1/mux010/MUX21GENI_2/UND1/U1/ZN (NAND2_X1)         0.03       0.41 r
+  muxi_1/mux010/MUX21GENI_2/UND1/Y (ND2_474)              0.00       0.41 r
+  muxi_1/mux010/MUX21GENI_2/UND3/A (ND2_472)              0.00       0.41 r
+  muxi_1/mux010/MUX21GENI_2/UND3/U1/ZN (NAND2_X1)         0.03       0.44 f
+  muxi_1/mux010/MUX21GENI_2/UND3/Y (ND2_472)              0.00       0.44 f
+  muxi_1/mux010/MUX21GENI_2/Y (MUX21_158)                 0.00       0.44 f
+  muxi_1/mux010/Y[2] (MUX21_GENERIC_NBIT16_10)            0.00       0.44 f
+  muxi_1/mux001/A[2] (MUX21_GENERIC_NBIT16_9)             0.00       0.44 f
+  muxi_1/mux001/MUX21GENI_2/A (MUX21_142)                 0.00       0.44 f
+  muxi_1/mux001/MUX21GENI_2/UND1/A (ND2_426)              0.00       0.44 f
+  muxi_1/mux001/MUX21GENI_2/UND1/U1/ZN (NAND2_X1)         0.03       0.47 r
+  muxi_1/mux001/MUX21GENI_2/UND1/Y (ND2_426)              0.00       0.47 r
+  muxi_1/mux001/MUX21GENI_2/UND3/A (ND2_424)              0.00       0.47 r
+  muxi_1/mux001/MUX21GENI_2/UND3/U1/ZN (NAND2_X1)         0.04       0.51 f
+  muxi_1/mux001/MUX21GENI_2/UND3/Y (ND2_424)              0.00       0.51 f
+  muxi_1/mux001/MUX21GENI_2/Y (MUX21_142)                 0.00       0.51 f
+  muxi_1/mux001/Y[2] (MUX21_GENERIC_NBIT16_9)             0.00       0.51 f
+  muxi_1/Y[2] (MUX51_GENERIC_NBIT16_3)                    0.00       0.51 f
+  rcai_1/a[2] (RCA_size16_0)                              0.00       0.51 f
+  rcai_1/fa_i_2/a (FA_46)                                 0.00       0.51 f
+  rcai_1/fa_i_2/U3/ZN (AOI22_X1)                          0.05       0.56 r
+  rcai_1/fa_i_2/U2/ZN (INV_X1)                            0.03       0.59 f
+  rcai_1/fa_i_2/c_out (FA_46)                             0.00       0.59 f
+  rcai_1/fa_i_3/c_in (FA_45)                              0.00       0.59 f
+  rcai_1/fa_i_3/U3/ZN (AOI22_X1)                          0.06       0.65 r
+  rcai_1/fa_i_3/U2/ZN (INV_X1)                            0.03       0.68 f
+  rcai_1/fa_i_3/c_out (FA_45)                             0.00       0.68 f
+  rcai_1/fa_i_4/c_in (FA_44)                              0.00       0.68 f
+  rcai_1/fa_i_4/U3/ZN (AOI22_X1)                          0.06       0.74 r
+  rcai_1/fa_i_4/U2/ZN (INV_X1)                            0.03       0.76 f
+  rcai_1/fa_i_4/c_out (FA_44)                             0.00       0.76 f
+  rcai_1/fa_i_5/c_in (FA_43)                              0.00       0.76 f
+  rcai_1/fa_i_5/U3/ZN (AOI22_X1)                          0.06       0.83 r
+  rcai_1/fa_i_5/U2/ZN (INV_X1)                            0.03       0.85 f
+  rcai_1/fa_i_5/c_out (FA_43)                             0.00       0.85 f
+  rcai_1/fa_i_6/c_in (FA_42)                              0.00       0.85 f
+  rcai_1/fa_i_6/U3/ZN (AOI22_X1)                          0.06       0.92 r
+  rcai_1/fa_i_6/U2/ZN (INV_X1)                            0.03       0.94 f
+  rcai_1/fa_i_6/c_out (FA_42)                             0.00       0.94 f
+  rcai_1/fa_i_7/c_in (FA_41)                              0.00       0.94 f
+  rcai_1/fa_i_7/U3/ZN (AOI22_X1)                          0.06       1.01 r
+  rcai_1/fa_i_7/U2/ZN (INV_X1)                            0.03       1.03 f
+  rcai_1/fa_i_7/c_out (FA_41)                             0.00       1.03 f
+  rcai_1/fa_i_8/c_in (FA_40)                              0.00       1.03 f
+  rcai_1/fa_i_8/U3/ZN (AOI22_X1)                          0.06       1.10 r
+  rcai_1/fa_i_8/U2/ZN (INV_X1)                            0.03       1.12 f
+  rcai_1/fa_i_8/c_out (FA_40)                             0.00       1.12 f
+  rcai_1/fa_i_9/c_in (FA_39)                              0.00       1.12 f
+  rcai_1/fa_i_9/U3/ZN (AOI22_X1)                          0.06       1.19 r
+  rcai_1/fa_i_9/U2/ZN (INV_X1)                            0.03       1.21 f
+  rcai_1/fa_i_9/c_out (FA_39)                             0.00       1.21 f
+  rcai_1/fa_i_10/c_in (FA_38)                             0.00       1.21 f
+  rcai_1/fa_i_10/U3/ZN (AOI22_X1)                         0.06       1.28 r
+  rcai_1/fa_i_10/U2/ZN (INV_X1)                           0.03       1.30 f
+  rcai_1/fa_i_10/c_out (FA_38)                            0.00       1.30 f
+  rcai_1/fa_i_11/c_in (FA_37)                             0.00       1.30 f
+  rcai_1/fa_i_11/U3/ZN (AOI22_X1)                         0.06       1.37 r
+  rcai_1/fa_i_11/U2/ZN (INV_X1)                           0.03       1.39 f
+  rcai_1/fa_i_11/c_out (FA_37)                            0.00       1.39 f
+  rcai_1/fa_i_12/c_in (FA_36)                             0.00       1.39 f
+  rcai_1/fa_i_12/U3/ZN (AOI22_X1)                         0.06       1.46 r
+  rcai_1/fa_i_12/U2/ZN (INV_X1)                           0.03       1.48 f
+  rcai_1/fa_i_12/c_out (FA_36)                            0.00       1.48 f
+  rcai_1/fa_i_13/c_in (FA_35)                             0.00       1.48 f
+  rcai_1/fa_i_13/U3/ZN (AOI22_X1)                         0.06       1.55 r
+  rcai_1/fa_i_13/U2/ZN (INV_X1)                           0.03       1.57 f
+  rcai_1/fa_i_13/c_out (FA_35)                            0.00       1.57 f
+  rcai_1/fa_i_14/c_in (FA_34)                             0.00       1.57 f
+  rcai_1/fa_i_14/U3/ZN (AOI22_X1)                         0.06       1.64 r
+  rcai_1/fa_i_14/U2/ZN (INV_X1)                           0.03       1.66 f
+  rcai_1/fa_i_14/c_out (FA_34)                            0.00       1.66 f
+  rcai_1/fa_i_15/c_in (FA_33)                             0.00       1.66 f
+  rcai_1/fa_i_15/U1/Z (XOR2_X1)                           0.07       1.74 f
+  rcai_1/fa_i_15/s (FA_33)                                0.00       1.74 f
+  rcai_1/sum[15] (RCA_size16_0)                           0.00       1.74 f
+  rcai_2/b[15] (RCA_size16_2)                             0.00       1.74 f
+  rcai_2/fa_i_15/b (FA_17)                                0.00       1.74 f
+  rcai_2/fa_i_15/U4/Z (XOR2_X1)                           0.08       1.82 f
+  rcai_2/fa_i_15/U1/Z (XOR2_X1)                           0.08       1.90 f
+  rcai_2/fa_i_15/s (FA_17)                                0.00       1.90 f
+  rcai_2/sum[15] (RCA_size16_2)                           0.00       1.90 f
+  rcai_3/b[15] (RCA_size16_1)                             0.00       1.90 f
+  rcai_3/fa_i_15/b (FA_1)                                 0.00       1.90 f
+  rcai_3/fa_i_15/U4/Z (XOR2_X1)                           0.08       1.99 f
+  rcai_3/fa_i_15/U1/Z (XOR2_X1)                           0.07       2.06 f
+  rcai_3/fa_i_15/s (FA_1)                                 0.00       2.06 f
+  rcai_3/sum[15] (RCA_size16_1)                           0.00       2.06 f
+  Y_mp[15] (out)                                          0.00       2.06 f
+  data arrival time                                                  2.06
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B_mp[2] (input port)
+  Endpoint: Y_mp[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_NBIT8     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  B_mp[2] (in)                                            0.00       0.00 f
+  enci_1/X[1] (ENC3TO3_3)                                 0.00       0.00 f
+  enci_1/U6/ZN (XNOR2_X1)                                 0.08       0.08 r
+  enci_1/U4/ZN (AOI21_X1)                                 0.05       0.13 f
+  enci_1/U3/ZN (INV_X4)                                   0.15       0.28 r
+  enci_1/Y[2] (ENC3TO3_3)                                 0.00       0.28 r
+  muxi_1/SEL[2] (MUX51_GENERIC_NBIT16_3)                  0.00       0.28 r
+  muxi_1/mux000/SEL (MUX21_GENERIC_NBIT16_12)             0.00       0.28 r
+  muxi_1/mux000/MUX21GENI_2/S (MUX21_190)                 0.00       0.28 r
+  muxi_1/mux000/MUX21GENI_2/UIV/A (IV_190)                0.00       0.28 r
+  muxi_1/mux000/MUX21GENI_2/UIV/U1/ZN (INV_X1)            0.05       0.33 f
+  muxi_1/mux000/MUX21GENI_2/UIV/Y (IV_190)                0.00       0.33 f
+  muxi_1/mux000/MUX21GENI_2/UND2/B (ND2_569)              0.00       0.33 f
+  muxi_1/mux000/MUX21GENI_2/UND2/U1/ZN (NAND2_X1)         0.03       0.36 r
+  muxi_1/mux000/MUX21GENI_2/UND2/Y (ND2_569)              0.00       0.36 r
+  muxi_1/mux000/MUX21GENI_2/UND3/B (ND2_568)              0.00       0.36 r
+  muxi_1/mux000/MUX21GENI_2/UND3/U1/ZN (NAND2_X1)         0.03       0.39 f
+  muxi_1/mux000/MUX21GENI_2/UND3/Y (ND2_568)              0.00       0.39 f
+  muxi_1/mux000/MUX21GENI_2/Y (MUX21_190)                 0.00       0.39 f
+  muxi_1/mux000/Y[2] (MUX21_GENERIC_NBIT16_12)            0.00       0.39 f
+  muxi_1/mux010/A[2] (MUX21_GENERIC_NBIT16_10)            0.00       0.39 f
+  muxi_1/mux010/MUX21GENI_2/A (MUX21_158)                 0.00       0.39 f
+  muxi_1/mux010/MUX21GENI_2/UND1/A (ND2_474)              0.00       0.39 f
+  muxi_1/mux010/MUX21GENI_2/UND1/U1/ZN (NAND2_X1)         0.03       0.41 r
+  muxi_1/mux010/MUX21GENI_2/UND1/Y (ND2_474)              0.00       0.41 r
+  muxi_1/mux010/MUX21GENI_2/UND3/A (ND2_472)              0.00       0.41 r
+  muxi_1/mux010/MUX21GENI_2/UND3/U1/ZN (NAND2_X1)         0.03       0.44 f
+  muxi_1/mux010/MUX21GENI_2/UND3/Y (ND2_472)              0.00       0.44 f
+  muxi_1/mux010/MUX21GENI_2/Y (MUX21_158)                 0.00       0.44 f
+  muxi_1/mux010/Y[2] (MUX21_GENERIC_NBIT16_10)            0.00       0.44 f
+  muxi_1/mux001/A[2] (MUX21_GENERIC_NBIT16_9)             0.00       0.44 f
+  muxi_1/mux001/MUX21GENI_2/A (MUX21_142)                 0.00       0.44 f
+  muxi_1/mux001/MUX21GENI_2/UND1/A (ND2_426)              0.00       0.44 f
+  muxi_1/mux001/MUX21GENI_2/UND1/U1/ZN (NAND2_X1)         0.03       0.47 r
+  muxi_1/mux001/MUX21GENI_2/UND1/Y (ND2_426)              0.00       0.47 r
+  muxi_1/mux001/MUX21GENI_2/UND3/A (ND2_424)              0.00       0.47 r
+  muxi_1/mux001/MUX21GENI_2/UND3/U1/ZN (NAND2_X1)         0.04       0.51 f
+  muxi_1/mux001/MUX21GENI_2/UND3/Y (ND2_424)              0.00       0.51 f
+  muxi_1/mux001/MUX21GENI_2/Y (MUX21_142)                 0.00       0.51 f
+  muxi_1/mux001/Y[2] (MUX21_GENERIC_NBIT16_9)             0.00       0.51 f
+  muxi_1/Y[2] (MUX51_GENERIC_NBIT16_3)                    0.00       0.51 f
+  rcai_1/a[2] (RCA_size16_0)                              0.00       0.51 f
+  rcai_1/fa_i_2/a (FA_46)                                 0.00       0.51 f
+  rcai_1/fa_i_2/U3/ZN (AOI22_X1)                          0.05       0.56 r
+  rcai_1/fa_i_2/U2/ZN (INV_X1)                            0.03       0.59 f
+  rcai_1/fa_i_2/c_out (FA_46)                             0.00       0.59 f
+  rcai_1/fa_i_3/c_in (FA_45)                              0.00       0.59 f
+  rcai_1/fa_i_3/U3/ZN (AOI22_X1)                          0.06       0.65 r
+  rcai_1/fa_i_3/U2/ZN (INV_X1)                            0.03       0.68 f
+  rcai_1/fa_i_3/c_out (FA_45)                             0.00       0.68 f
+  rcai_1/fa_i_4/c_in (FA_44)                              0.00       0.68 f
+  rcai_1/fa_i_4/U3/ZN (AOI22_X1)                          0.06       0.74 r
+  rcai_1/fa_i_4/U2/ZN (INV_X1)                            0.03       0.77 f
+  rcai_1/fa_i_4/c_out (FA_44)                             0.00       0.77 f
+  rcai_1/fa_i_5/c_in (FA_43)                              0.00       0.77 f
+  rcai_1/fa_i_5/U3/ZN (AOI22_X1)                          0.06       0.83 r
+  rcai_1/fa_i_5/U2/ZN (INV_X1)                            0.03       0.86 f
+  rcai_1/fa_i_5/c_out (FA_43)                             0.00       0.86 f
+  rcai_1/fa_i_6/c_in (FA_42)                              0.00       0.86 f
+  rcai_1/fa_i_6/U3/ZN (AOI22_X1)                          0.06       0.92 r
+  rcai_1/fa_i_6/U2/ZN (INV_X1)                            0.03       0.95 f
+  rcai_1/fa_i_6/c_out (FA_42)                             0.00       0.95 f
+  rcai_1/fa_i_7/c_in (FA_41)                              0.00       0.95 f
+  rcai_1/fa_i_7/U3/ZN (AOI22_X1)                          0.06       1.01 r
+  rcai_1/fa_i_7/U2/ZN (INV_X1)                            0.03       1.04 f
+  rcai_1/fa_i_7/c_out (FA_41)                             0.00       1.04 f
+  rcai_1/fa_i_8/c_in (FA_40)                              0.00       1.04 f
+  rcai_1/fa_i_8/U3/ZN (AOI22_X1)                          0.06       1.10 r
+  rcai_1/fa_i_8/U2/ZN (INV_X1)                            0.03       1.13 f
+  rcai_1/fa_i_8/c_out (FA_40)                             0.00       1.13 f
+  rcai_1/fa_i_9/c_in (FA_39)                              0.00       1.13 f
+  rcai_1/fa_i_9/U3/ZN (AOI22_X1)                          0.06       1.19 r
+  rcai_1/fa_i_9/U2/ZN (INV_X1)                            0.03       1.22 f
+  rcai_1/fa_i_9/c_out (FA_39)                             0.00       1.22 f
+  rcai_1/fa_i_10/c_in (FA_38)                             0.00       1.22 f
+  rcai_1/fa_i_10/U3/ZN (AOI22_X1)                         0.06       1.28 r
+  rcai_1/fa_i_10/U2/ZN (INV_X1)                           0.03       1.31 f
+  rcai_1/fa_i_10/c_out (FA_38)                            0.00       1.31 f
+  rcai_1/fa_i_11/c_in (FA_37)                             0.00       1.31 f
+  rcai_1/fa_i_11/U3/ZN (AOI22_X1)                         0.06       1.37 r
+  rcai_1/fa_i_11/U2/ZN (INV_X1)                           0.03       1.40 f
+  rcai_1/fa_i_11/c_out (FA_37)                            0.00       1.40 f
+  rcai_1/fa_i_12/c_in (FA_36)                             0.00       1.40 f
+  rcai_1/fa_i_12/U3/ZN (AOI22_X1)                         0.06       1.46 r
+  rcai_1/fa_i_12/U2/ZN (INV_X1)                           0.03       1.48 f
+  rcai_1/fa_i_12/c_out (FA_36)                            0.00       1.48 f
+  rcai_1/fa_i_13/c_in (FA_35)                             0.00       1.48 f
+  rcai_1/fa_i_13/U3/ZN (AOI22_X1)                         0.06       1.55 r
+  rcai_1/fa_i_13/U2/ZN (INV_X1)                           0.03       1.57 f
+  rcai_1/fa_i_13/c_out (FA_35)                            0.00       1.57 f
+  rcai_1/fa_i_14/c_in (FA_34)                             0.00       1.57 f
+  rcai_1/fa_i_14/U3/ZN (AOI22_X1)                         0.06       1.64 r
+  rcai_1/fa_i_14/U2/ZN (INV_X1)                           0.03       1.66 f
+  rcai_1/fa_i_14/c_out (FA_34)                            0.00       1.66 f
+  rcai_1/fa_i_15/c_in (FA_33)                             0.00       1.66 f
+  rcai_1/fa_i_15/U1/Z (XOR2_X1)                           0.07       1.74 f
+  rcai_1/fa_i_15/s (FA_33)                                0.00       1.74 f
+  rcai_1/sum[15] (RCA_size16_0)                           0.00       1.74 f
+  rcai_2/b[15] (RCA_size16_2)                             0.00       1.74 f
+  rcai_2/fa_i_15/b (FA_17)                                0.00       1.74 f
+  rcai_2/fa_i_15/U4/Z (XOR2_X1)                           0.08       1.82 f
+  rcai_2/fa_i_15/U1/Z (XOR2_X1)                           0.08       1.90 f
+  rcai_2/fa_i_15/s (FA_17)                                0.00       1.90 f
+  rcai_2/sum[15] (RCA_size16_2)                           0.00       1.90 f
+  rcai_3/b[15] (RCA_size16_1)                             0.00       1.90 f
+  rcai_3/fa_i_15/b (FA_1)                                 0.00       1.90 f
+  rcai_3/fa_i_15/U4/Z (XOR2_X1)                           0.08       1.99 f
+  rcai_3/fa_i_15/U1/Z (XOR2_X1)                           0.07       2.06 f
+  rcai_3/fa_i_15/s (FA_1)                                 0.00       2.06 f
+  rcai_3/sum[15] (RCA_size16_1)                           0.00       2.06 f
+  Y_mp[15] (out)                                          0.00       2.06 f
+  data arrival time                                                  2.06
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B_mp[2] (input port)
+  Endpoint: Y_mp[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_NBIT8     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  B_mp[2] (in)                                            0.00       0.00 f
+  enci_1/X[1] (ENC3TO3_3)                                 0.00       0.00 f
+  enci_1/U6/ZN (XNOR2_X1)                                 0.08       0.08 r
+  enci_1/U4/ZN (AOI21_X1)                                 0.05       0.13 f
+  enci_1/U3/ZN (INV_X4)                                   0.15       0.28 r
+  enci_1/Y[2] (ENC3TO3_3)                                 0.00       0.28 r
+  muxi_1/SEL[2] (MUX51_GENERIC_NBIT16_3)                  0.00       0.28 r
+  muxi_1/mux000/SEL (MUX21_GENERIC_NBIT16_12)             0.00       0.28 r
+  muxi_1/mux000/MUX21GENI_2/S (MUX21_190)                 0.00       0.28 r
+  muxi_1/mux000/MUX21GENI_2/UIV/A (IV_190)                0.00       0.28 r
+  muxi_1/mux000/MUX21GENI_2/UIV/U1/ZN (INV_X1)            0.05       0.33 f
+  muxi_1/mux000/MUX21GENI_2/UIV/Y (IV_190)                0.00       0.33 f
+  muxi_1/mux000/MUX21GENI_2/UND2/B (ND2_569)              0.00       0.33 f
+  muxi_1/mux000/MUX21GENI_2/UND2/U1/ZN (NAND2_X1)         0.03       0.36 r
+  muxi_1/mux000/MUX21GENI_2/UND2/Y (ND2_569)              0.00       0.36 r
+  muxi_1/mux000/MUX21GENI_2/UND3/B (ND2_568)              0.00       0.36 r
+  muxi_1/mux000/MUX21GENI_2/UND3/U1/ZN (NAND2_X1)         0.03       0.39 f
+  muxi_1/mux000/MUX21GENI_2/UND3/Y (ND2_568)              0.00       0.39 f
+  muxi_1/mux000/MUX21GENI_2/Y (MUX21_190)                 0.00       0.39 f
+  muxi_1/mux000/Y[2] (MUX21_GENERIC_NBIT16_12)            0.00       0.39 f
+  muxi_1/mux010/A[2] (MUX21_GENERIC_NBIT16_10)            0.00       0.39 f
+  muxi_1/mux010/MUX21GENI_2/A (MUX21_158)                 0.00       0.39 f
+  muxi_1/mux010/MUX21GENI_2/UND1/A (ND2_474)              0.00       0.39 f
+  muxi_1/mux010/MUX21GENI_2/UND1/U1/ZN (NAND2_X1)         0.03       0.41 r
+  muxi_1/mux010/MUX21GENI_2/UND1/Y (ND2_474)              0.00       0.41 r
+  muxi_1/mux010/MUX21GENI_2/UND3/A (ND2_472)              0.00       0.41 r
+  muxi_1/mux010/MUX21GENI_2/UND3/U1/ZN (NAND2_X1)         0.03       0.44 f
+  muxi_1/mux010/MUX21GENI_2/UND3/Y (ND2_472)              0.00       0.44 f
+  muxi_1/mux010/MUX21GENI_2/Y (MUX21_158)                 0.00       0.44 f
+  muxi_1/mux010/Y[2] (MUX21_GENERIC_NBIT16_10)            0.00       0.44 f
+  muxi_1/mux001/A[2] (MUX21_GENERIC_NBIT16_9)             0.00       0.44 f
+  muxi_1/mux001/MUX21GENI_2/A (MUX21_142)                 0.00       0.44 f
+  muxi_1/mux001/MUX21GENI_2/UND1/A (ND2_426)              0.00       0.44 f
+  muxi_1/mux001/MUX21GENI_2/UND1/U1/ZN (NAND2_X1)         0.03       0.47 r
+  muxi_1/mux001/MUX21GENI_2/UND1/Y (ND2_426)              0.00       0.47 r
+  muxi_1/mux001/MUX21GENI_2/UND3/A (ND2_424)              0.00       0.47 r
+  muxi_1/mux001/MUX21GENI_2/UND3/U1/ZN (NAND2_X1)         0.04       0.51 f
+  muxi_1/mux001/MUX21GENI_2/UND3/Y (ND2_424)              0.00       0.51 f
+  muxi_1/mux001/MUX21GENI_2/Y (MUX21_142)                 0.00       0.51 f
+  muxi_1/mux001/Y[2] (MUX21_GENERIC_NBIT16_9)             0.00       0.51 f
+  muxi_1/Y[2] (MUX51_GENERIC_NBIT16_3)                    0.00       0.51 f
+  rcai_1/a[2] (RCA_size16_0)                              0.00       0.51 f
+  rcai_1/fa_i_2/a (FA_46)                                 0.00       0.51 f
+  rcai_1/fa_i_2/U3/ZN (AOI22_X1)                          0.05       0.56 r
+  rcai_1/fa_i_2/U2/ZN (INV_X1)                            0.03       0.59 f
+  rcai_1/fa_i_2/c_out (FA_46)                             0.00       0.59 f
+  rcai_1/fa_i_3/c_in (FA_45)                              0.00       0.59 f
+  rcai_1/fa_i_3/U3/ZN (AOI22_X1)                          0.06       0.65 r
+  rcai_1/fa_i_3/U2/ZN (INV_X1)                            0.03       0.68 f
+  rcai_1/fa_i_3/c_out (FA_45)                             0.00       0.68 f
+  rcai_1/fa_i_4/c_in (FA_44)                              0.00       0.68 f
+  rcai_1/fa_i_4/U3/ZN (AOI22_X1)                          0.06       0.74 r
+  rcai_1/fa_i_4/U2/ZN (INV_X1)                            0.03       0.77 f
+  rcai_1/fa_i_4/c_out (FA_44)                             0.00       0.77 f
+  rcai_1/fa_i_5/c_in (FA_43)                              0.00       0.77 f
+  rcai_1/fa_i_5/U3/ZN (AOI22_X1)                          0.06       0.83 r
+  rcai_1/fa_i_5/U2/ZN (INV_X1)                            0.03       0.86 f
+  rcai_1/fa_i_5/c_out (FA_43)                             0.00       0.86 f
+  rcai_1/fa_i_6/c_in (FA_42)                              0.00       0.86 f
+  rcai_1/fa_i_6/U3/ZN (AOI22_X1)                          0.06       0.92 r
+  rcai_1/fa_i_6/U2/ZN (INV_X1)                            0.03       0.95 f
+  rcai_1/fa_i_6/c_out (FA_42)                             0.00       0.95 f
+  rcai_1/fa_i_7/c_in (FA_41)                              0.00       0.95 f
+  rcai_1/fa_i_7/U3/ZN (AOI22_X1)                          0.06       1.01 r
+  rcai_1/fa_i_7/U2/ZN (INV_X1)                            0.03       1.04 f
+  rcai_1/fa_i_7/c_out (FA_41)                             0.00       1.04 f
+  rcai_1/fa_i_8/c_in (FA_40)                              0.00       1.04 f
+  rcai_1/fa_i_8/U3/ZN (AOI22_X1)                          0.06       1.10 r
+  rcai_1/fa_i_8/U2/ZN (INV_X1)                            0.03       1.12 f
+  rcai_1/fa_i_8/c_out (FA_40)                             0.00       1.12 f
+  rcai_1/fa_i_9/c_in (FA_39)                              0.00       1.12 f
+  rcai_1/fa_i_9/U3/ZN (AOI22_X1)                          0.06       1.19 r
+  rcai_1/fa_i_9/U2/ZN (INV_X1)                            0.03       1.21 f
+  rcai_1/fa_i_9/c_out (FA_39)                             0.00       1.21 f
+  rcai_1/fa_i_10/c_in (FA_38)                             0.00       1.21 f
+  rcai_1/fa_i_10/U3/ZN (AOI22_X1)                         0.06       1.28 r
+  rcai_1/fa_i_10/U2/ZN (INV_X1)                           0.03       1.30 f
+  rcai_1/fa_i_10/c_out (FA_38)                            0.00       1.30 f
+  rcai_1/fa_i_11/c_in (FA_37)                             0.00       1.30 f
+  rcai_1/fa_i_11/U3/ZN (AOI22_X1)                         0.06       1.37 r
+  rcai_1/fa_i_11/U2/ZN (INV_X1)                           0.03       1.39 f
+  rcai_1/fa_i_11/c_out (FA_37)                            0.00       1.39 f
+  rcai_1/fa_i_12/c_in (FA_36)                             0.00       1.39 f
+  rcai_1/fa_i_12/U3/ZN (AOI22_X1)                         0.06       1.46 r
+  rcai_1/fa_i_12/U2/ZN (INV_X1)                           0.03       1.48 f
+  rcai_1/fa_i_12/c_out (FA_36)                            0.00       1.48 f
+  rcai_1/fa_i_13/c_in (FA_35)                             0.00       1.48 f
+  rcai_1/fa_i_13/U3/ZN (AOI22_X1)                         0.06       1.55 r
+  rcai_1/fa_i_13/U2/ZN (INV_X1)                           0.03       1.57 f
+  rcai_1/fa_i_13/c_out (FA_35)                            0.00       1.57 f
+  rcai_1/fa_i_14/c_in (FA_34)                             0.00       1.57 f
+  rcai_1/fa_i_14/U3/ZN (AOI22_X1)                         0.06       1.64 r
+  rcai_1/fa_i_14/U2/ZN (INV_X1)                           0.03       1.66 f
+  rcai_1/fa_i_14/c_out (FA_34)                            0.00       1.66 f
+  rcai_1/fa_i_15/c_in (FA_33)                             0.00       1.66 f
+  rcai_1/fa_i_15/U1/Z (XOR2_X1)                           0.07       1.74 f
+  rcai_1/fa_i_15/s (FA_33)                                0.00       1.74 f
+  rcai_1/sum[15] (RCA_size16_0)                           0.00       1.74 f
+  rcai_2/b[15] (RCA_size16_2)                             0.00       1.74 f
+  rcai_2/fa_i_15/b (FA_17)                                0.00       1.74 f
+  rcai_2/fa_i_15/U4/Z (XOR2_X1)                           0.08       1.82 f
+  rcai_2/fa_i_15/U1/Z (XOR2_X1)                           0.08       1.90 f
+  rcai_2/fa_i_15/s (FA_17)                                0.00       1.90 f
+  rcai_2/sum[15] (RCA_size16_2)                           0.00       1.90 f
+  rcai_3/b[15] (RCA_size16_1)                             0.00       1.90 f
+  rcai_3/fa_i_15/b (FA_1)                                 0.00       1.90 f
+  rcai_3/fa_i_15/U4/Z (XOR2_X1)                           0.08       1.99 f
+  rcai_3/fa_i_15/U1/Z (XOR2_X1)                           0.07       2.06 f
+  rcai_3/fa_i_15/s (FA_1)                                 0.00       2.06 f
+  rcai_3/sum[15] (RCA_size16_1)                           0.00       2.06 f
+  Y_mp[15] (out)                                          0.00       2.06 f
+  data arrival time                                                  2.06
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B_mp[2] (input port)
+  Endpoint: Y_mp[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_NBIT8     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  B_mp[2] (in)                                            0.00       0.00 f
+  enci_1/X[1] (ENC3TO3_3)                                 0.00       0.00 f
+  enci_1/U6/ZN (XNOR2_X1)                                 0.08       0.08 r
+  enci_1/U4/ZN (AOI21_X1)                                 0.05       0.13 f
+  enci_1/U3/ZN (INV_X4)                                   0.15       0.28 r
+  enci_1/Y[2] (ENC3TO3_3)                                 0.00       0.28 r
+  muxi_1/SEL[2] (MUX51_GENERIC_NBIT16_3)                  0.00       0.28 r
+  muxi_1/mux000/SEL (MUX21_GENERIC_NBIT16_12)             0.00       0.28 r
+  muxi_1/mux000/MUX21GENI_2/S (MUX21_190)                 0.00       0.28 r
+  muxi_1/mux000/MUX21GENI_2/UIV/A (IV_190)                0.00       0.28 r
+  muxi_1/mux000/MUX21GENI_2/UIV/U1/ZN (INV_X1)            0.05       0.33 f
+  muxi_1/mux000/MUX21GENI_2/UIV/Y (IV_190)                0.00       0.33 f
+  muxi_1/mux000/MUX21GENI_2/UND2/B (ND2_569)              0.00       0.33 f
+  muxi_1/mux000/MUX21GENI_2/UND2/U1/ZN (NAND2_X1)         0.03       0.36 r
+  muxi_1/mux000/MUX21GENI_2/UND2/Y (ND2_569)              0.00       0.36 r
+  muxi_1/mux000/MUX21GENI_2/UND3/B (ND2_568)              0.00       0.36 r
+  muxi_1/mux000/MUX21GENI_2/UND3/U1/ZN (NAND2_X1)         0.03       0.39 f
+  muxi_1/mux000/MUX21GENI_2/UND3/Y (ND2_568)              0.00       0.39 f
+  muxi_1/mux000/MUX21GENI_2/Y (MUX21_190)                 0.00       0.39 f
+  muxi_1/mux000/Y[2] (MUX21_GENERIC_NBIT16_12)            0.00       0.39 f
+  muxi_1/mux010/A[2] (MUX21_GENERIC_NBIT16_10)            0.00       0.39 f
+  muxi_1/mux010/MUX21GENI_2/A (MUX21_158)                 0.00       0.39 f
+  muxi_1/mux010/MUX21GENI_2/UND1/A (ND2_474)              0.00       0.39 f
+  muxi_1/mux010/MUX21GENI_2/UND1/U1/ZN (NAND2_X1)         0.03       0.41 r
+  muxi_1/mux010/MUX21GENI_2/UND1/Y (ND2_474)              0.00       0.41 r
+  muxi_1/mux010/MUX21GENI_2/UND3/A (ND2_472)              0.00       0.41 r
+  muxi_1/mux010/MUX21GENI_2/UND3/U1/ZN (NAND2_X1)         0.03       0.44 f
+  muxi_1/mux010/MUX21GENI_2/UND3/Y (ND2_472)              0.00       0.44 f
+  muxi_1/mux010/MUX21GENI_2/Y (MUX21_158)                 0.00       0.44 f
+  muxi_1/mux010/Y[2] (MUX21_GENERIC_NBIT16_10)            0.00       0.44 f
+  muxi_1/mux001/A[2] (MUX21_GENERIC_NBIT16_9)             0.00       0.44 f
+  muxi_1/mux001/MUX21GENI_2/A (MUX21_142)                 0.00       0.44 f
+  muxi_1/mux001/MUX21GENI_2/UND1/A (ND2_426)              0.00       0.44 f
+  muxi_1/mux001/MUX21GENI_2/UND1/U1/ZN (NAND2_X1)         0.03       0.47 r
+  muxi_1/mux001/MUX21GENI_2/UND1/Y (ND2_426)              0.00       0.47 r
+  muxi_1/mux001/MUX21GENI_2/UND3/A (ND2_424)              0.00       0.47 r
+  muxi_1/mux001/MUX21GENI_2/UND3/U1/ZN (NAND2_X1)         0.04       0.51 f
+  muxi_1/mux001/MUX21GENI_2/UND3/Y (ND2_424)              0.00       0.51 f
+  muxi_1/mux001/MUX21GENI_2/Y (MUX21_142)                 0.00       0.51 f
+  muxi_1/mux001/Y[2] (MUX21_GENERIC_NBIT16_9)             0.00       0.51 f
+  muxi_1/Y[2] (MUX51_GENERIC_NBIT16_3)                    0.00       0.51 f
+  rcai_1/a[2] (RCA_size16_0)                              0.00       0.51 f
+  rcai_1/fa_i_2/a (FA_46)                                 0.00       0.51 f
+  rcai_1/fa_i_2/U3/ZN (AOI22_X1)                          0.05       0.56 r
+  rcai_1/fa_i_2/U2/ZN (INV_X1)                            0.03       0.59 f
+  rcai_1/fa_i_2/c_out (FA_46)                             0.00       0.59 f
+  rcai_1/fa_i_3/c_in (FA_45)                              0.00       0.59 f
+  rcai_1/fa_i_3/U3/ZN (AOI22_X1)                          0.06       0.65 r
+  rcai_1/fa_i_3/U2/ZN (INV_X1)                            0.03       0.68 f
+  rcai_1/fa_i_3/c_out (FA_45)                             0.00       0.68 f
+  rcai_1/fa_i_4/c_in (FA_44)                              0.00       0.68 f
+  rcai_1/fa_i_4/U3/ZN (AOI22_X1)                          0.06       0.74 r
+  rcai_1/fa_i_4/U2/ZN (INV_X1)                            0.03       0.77 f
+  rcai_1/fa_i_4/c_out (FA_44)                             0.00       0.77 f
+  rcai_1/fa_i_5/c_in (FA_43)                              0.00       0.77 f
+  rcai_1/fa_i_5/U3/ZN (AOI22_X1)                          0.06       0.83 r
+  rcai_1/fa_i_5/U2/ZN (INV_X1)                            0.03       0.86 f
+  rcai_1/fa_i_5/c_out (FA_43)                             0.00       0.86 f
+  rcai_1/fa_i_6/c_in (FA_42)                              0.00       0.86 f
+  rcai_1/fa_i_6/U3/ZN (AOI22_X1)                          0.06       0.92 r
+  rcai_1/fa_i_6/U2/ZN (INV_X1)                            0.03       0.95 f
+  rcai_1/fa_i_6/c_out (FA_42)                             0.00       0.95 f
+  rcai_1/fa_i_7/c_in (FA_41)                              0.00       0.95 f
+  rcai_1/fa_i_7/U3/ZN (AOI22_X1)                          0.06       1.01 r
+  rcai_1/fa_i_7/U2/ZN (INV_X1)                            0.03       1.04 f
+  rcai_1/fa_i_7/c_out (FA_41)                             0.00       1.04 f
+  rcai_1/fa_i_8/c_in (FA_40)                              0.00       1.04 f
+  rcai_1/fa_i_8/U3/ZN (AOI22_X1)                          0.06       1.10 r
+  rcai_1/fa_i_8/U2/ZN (INV_X1)                            0.03       1.13 f
+  rcai_1/fa_i_8/c_out (FA_40)                             0.00       1.13 f
+  rcai_1/fa_i_9/c_in (FA_39)                              0.00       1.13 f
+  rcai_1/fa_i_9/U3/ZN (AOI22_X1)                          0.06       1.19 r
+  rcai_1/fa_i_9/U2/ZN (INV_X1)                            0.03       1.22 f
+  rcai_1/fa_i_9/c_out (FA_39)                             0.00       1.22 f
+  rcai_1/fa_i_10/c_in (FA_38)                             0.00       1.22 f
+  rcai_1/fa_i_10/U3/ZN (AOI22_X1)                         0.06       1.28 r
+  rcai_1/fa_i_10/U2/ZN (INV_X1)                           0.03       1.31 f
+  rcai_1/fa_i_10/c_out (FA_38)                            0.00       1.31 f
+  rcai_1/fa_i_11/c_in (FA_37)                             0.00       1.31 f
+  rcai_1/fa_i_11/U3/ZN (AOI22_X1)                         0.06       1.37 r
+  rcai_1/fa_i_11/U2/ZN (INV_X1)                           0.03       1.39 f
+  rcai_1/fa_i_11/c_out (FA_37)                            0.00       1.39 f
+  rcai_1/fa_i_12/c_in (FA_36)                             0.00       1.39 f
+  rcai_1/fa_i_12/U3/ZN (AOI22_X1)                         0.06       1.46 r
+  rcai_1/fa_i_12/U2/ZN (INV_X1)                           0.03       1.48 f
+  rcai_1/fa_i_12/c_out (FA_36)                            0.00       1.48 f
+  rcai_1/fa_i_13/c_in (FA_35)                             0.00       1.48 f
+  rcai_1/fa_i_13/U3/ZN (AOI22_X1)                         0.06       1.55 r
+  rcai_1/fa_i_13/U2/ZN (INV_X1)                           0.03       1.57 f
+  rcai_1/fa_i_13/c_out (FA_35)                            0.00       1.57 f
+  rcai_1/fa_i_14/c_in (FA_34)                             0.00       1.57 f
+  rcai_1/fa_i_14/U3/ZN (AOI22_X1)                         0.06       1.64 r
+  rcai_1/fa_i_14/U2/ZN (INV_X1)                           0.03       1.66 f
+  rcai_1/fa_i_14/c_out (FA_34)                            0.00       1.66 f
+  rcai_1/fa_i_15/c_in (FA_33)                             0.00       1.66 f
+  rcai_1/fa_i_15/U1/Z (XOR2_X1)                           0.07       1.74 f
+  rcai_1/fa_i_15/s (FA_33)                                0.00       1.74 f
+  rcai_1/sum[15] (RCA_size16_0)                           0.00       1.74 f
+  rcai_2/b[15] (RCA_size16_2)                             0.00       1.74 f
+  rcai_2/fa_i_15/b (FA_17)                                0.00       1.74 f
+  rcai_2/fa_i_15/U4/Z (XOR2_X1)                           0.08       1.82 f
+  rcai_2/fa_i_15/U1/Z (XOR2_X1)                           0.08       1.90 f
+  rcai_2/fa_i_15/s (FA_17)                                0.00       1.90 f
+  rcai_2/sum[15] (RCA_size16_2)                           0.00       1.90 f
+  rcai_3/b[15] (RCA_size16_1)                             0.00       1.90 f
+  rcai_3/fa_i_15/b (FA_1)                                 0.00       1.90 f
+  rcai_3/fa_i_15/U4/Z (XOR2_X1)                           0.08       1.99 f
+  rcai_3/fa_i_15/U1/Z (XOR2_X1)                           0.07       2.06 f
+  rcai_3/fa_i_15/s (FA_1)                                 0.00       2.06 f
+  rcai_3/sum[15] (RCA_size16_1)                           0.00       2.06 f
+  Y_mp[15] (out)                                          0.00       2.06 f
+  data arrival time                                                  2.06
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

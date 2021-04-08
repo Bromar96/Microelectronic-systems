@@ -1,0 +1,29 @@
+analyze -library WOclear
+RK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB2/P4Adder/syn/constants.vhd}
+
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB2/P4Adder/syn/iv.vhd}
+
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB2/P4Adder/syn/nd2.vhd}
+
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB2/P4Adder/syn/mux21.vhd}
+
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB2/P4Adder/syn/mux21_generic.vhd}
+
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB2/P4Adder/syn/FA.vhd}
+
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB2/P4Adder/syn/RCA.vhd}
+
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB2/P4Adder/syn/SUM_BLOCK.vhd}
+
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB2/P4Adder/syn/SUM_GENERATOR.vhd}
+
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB2/P4Adder/syn/g_block.vhd}
+
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB2/P4Adder/syn/pg_block.vhd}
+
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB2/P4Adder/syn/pg_net.vhd}
+
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB2/P4Adder/syn/carry_gen.vhd}
+
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB2/P4Adder/syn/P4_Adder.vhd}
+
