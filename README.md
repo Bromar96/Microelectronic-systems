@@ -15,3 +15,7 @@
 	-Parametric Sparse Tree Carry Generator 
 	-Parametric P4Adder
 	-Parametric BoothMultiplier
+
+# LAB3: [TO BE COMPLETED]
+	-Parametric register file
+	-Non Parametric windowed register file
