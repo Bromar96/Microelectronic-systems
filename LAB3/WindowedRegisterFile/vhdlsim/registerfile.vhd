@@ -6,7 +6,7 @@ use WORK.all;
 entity register_file is
  generic(
 	 WORD_SIZE: natural:=32;
-	 ADDR_SIZE: natural:=5 --5=2**5 registers
+	 ADDR_SIZE: natural:=5 
  );
  port ( 
 	 CLK: 		IN std_logic;

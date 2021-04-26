@@ -18,4 +18,4 @@
 
 # LAB3: [TO BE COMPLETED]
 	-Parametric register file
-	-Non Parametric windowed register file
+	-Parametric windowed register file

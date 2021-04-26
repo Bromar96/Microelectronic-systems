@@ -1,4 +1,0 @@
-vcom RMU.vhd
-vcom tb_RMU.vhd
-vcom registerfile.vhd
-vcom WRF.vhd

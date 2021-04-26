@@ -14,8 +14,9 @@ entity RMU is
 	port(
 		CALL: in std_logic;  --CPU signal
 		RET : in std_logic;  --CPU signal
-		STALL_ON_FILL: out std_logic; --CPU signal
-		STALL_ON_SPILL: out std_logic; --CPU
+		STALL: out std_logic; --CPU signal
+		READ1,READ2,WRITE: in std_logic; --CPU signal to be bypassed
+		RD1,RD2,WR: out std_logic; --bypassed
 		ENABLE: in std_logic;
 		RST,CLK: in std_logic;
 		SPILL,FILL: out std_logic; --MMU signals
@@ -71,28 +72,42 @@ begin
 
 
 	--process for control
-	process(curr_state,curr_SWP,curr_CWP,CALL,RET,ENABLE,ACK,VIRTUAL_ADDRESS1,VIRTUAL_ADDRESS2,VIRTUAL_ADDRESS3,curr_RESTORE,curr_CANSAVE)
+	process(curr_state,curr_SWP,curr_CWP,CALL,RET,ENABLE,ACK,VIRTUAL_ADDRESS1,VIRTUAL_ADDRESS2,VIRTUAL_ADDRESS3,curr_RESTORE,curr_CANSAVE,READ1,READ2,WRITE)
 	variable tmpU: unsigned (VIRTUAL_ADDR_SIZE-1 downto 0);
 	variable tmpI,res: integer;
-		
 	begin
-		STALL_ON_FILL<='0';
-		STALL_ON_SPILL<='0';
+		STALL<='0';
 		SPILL<='0';
 		FILL<='0';
-		if (to_integer(unsigned(VIRTUAL_ADDRESS)) < N) then
-				tmpU:=unsigned(VIRTUAL_ADDRESS);
+		RD1<='0';
+		RD2<='0';
+		WR<='0';
+		if (to_integer(unsigned(VIRTUAL_ADDRESS1)) < N) then
+				tmpU:=unsigned(VIRTUAL_ADDRESS1);
 				tmpI:=to_integer(tmpU);
 				res:=tmpI + (2*N*F+N);
-				--PHY_ADDRESS <=std_logic_vector(to_unsigned(to_integer(unsigned(VIRTUAL_ADDRESS)) + (2*N*F+N)),PHY_ADDRESS'length));
-				PHY_ADDRESS1<=std_logic_vector(to_unsigned(res,PHY_ADDRESS1'length));
-				PHY_ADDRESS2<=std_logic_vector(to_unsigned(res,PHY_ADDRESS2'length));
-				PHY_ADDRESS3<=std_logic_vector(to_unsigned(res,PHY_ADDRESS3'length));		
+				PHY_ADDRESS1<=std_logic_vector(to_unsigned(res,PHY_ADDRESS1'length));	
 		else
 				PHY_ADDRESS1 <=std_logic_vector((unsigned(VIRTUAL_ADDRESS1) + unsigned(curr_CWP(PHY_ADDR_SIZE-1 downto 0)) - 8)mod(2*N*F+N));
-				PHY_ADDRESS2 <=std_logic_vector((unsigned(VIRTUAL_ADDRESS2) + unsigned(curr_CWP(PHY_ADDR_SIZE-1 downto 0)) - 8)mod(2*N*F+N));
-				PHY_ADDRESS3 <=std_logic_vector((unsigned(VIRTUAL_ADDRESS3) + unsigned(curr_CWP(PHY_ADDR_SIZE-1 downto 0)) - 8)mod(2*N*F+N));
 		end  if;
+
+		if (to_integer(unsigned(VIRTUAL_ADDRESS2)) < N) then
+				tmpU:=unsigned(VIRTUAL_ADDRESS1);
+				tmpI:=to_integer(tmpU);
+				res:=tmpI + (2*N*F+N);
+				PHY_ADDRESS2<=std_logic_vector(to_unsigned(res,PHY_ADDRESS2'length));		
+		else
+				PHY_ADDRESS2 <=std_logic_vector((unsigned(VIRTUAL_ADDRESS2) + unsigned(curr_CWP(PHY_ADDR_SIZE-1 downto 0)) - 8)mod(2*N*F+N));
+		end if;
+
+		if (to_integer(unsigned(VIRTUAL_ADDRESS3)) < N) then
+				tmpU:=unsigned(VIRTUAL_ADDRESS1);
+				tmpI:=to_integer(tmpU);
+				res:=tmpI + (2*N*F+N);
+				PHY_ADDRESS3<=std_logic_vector(to_unsigned(res,PHY_ADDRESS3'length));		
+		else
+				PHY_ADDRESS3 <=std_logic_vector((unsigned(VIRTUAL_ADDRESS3) + unsigned(curr_CWP(PHY_ADDR_SIZE-1 downto 0)) - 8)mod(2*N*F+N));
+		end if;
 		
 		case curr_state is			
 			when INIT=>
@@ -107,6 +122,10 @@ begin
 				next_CANSAVE<=std_logic_vector(to_unsigned(F,curr_CANSAVE'length));
 	
 			when S_ON=>
+				--here we need to bypass write and reads signals
+				RD1<=READ1;
+				RD2<=READ2;
+				WR<=WRITE;
 				if CALL='1' then
 					next_state<=S_SPILL;
 				elsif RET='1' then
@@ -123,7 +142,7 @@ begin
 					next_state<=S_ON;
 				else
 					SPILL<='1';
-					STALL_ON_SPILL<='1';
+					STALL<='1';
 					next_RESTORE<=curr_CWP;
 					next_SWP<=std_logic_vector((unsigned(curr_CWP) +N)mod(2*N*F+N));
 					next_state<=S_ACK;
@@ -136,7 +155,7 @@ begin
 					next_state<=S_ON;
 				elsif (unsigned(curr_RESTORE) = unsigned(curr_SWP)) then
 					FILL<='1';
-					STALL_ON_FILL<='1';
+					STALL<='1';
 					next_SWP<=std_logic_vector((unsigned(curr_SWP) + (2*N*F+N) - 2*N) mod(2*N*F+N));
 					next_state<=S_ACK;
 				end if;
@@ -149,8 +168,15 @@ begin
 				else
 					next_state<=S_ACK;
 				end if;
+				STALL<='1';
+
 		end case;
 	end process;
 
 end HLSM;
+
+configuration CFG_RMU_BEH of RMU is
+  for HLSM
+  end for;
+end configuration;
 
