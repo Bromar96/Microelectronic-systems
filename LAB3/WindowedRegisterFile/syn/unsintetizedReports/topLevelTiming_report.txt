@@ -1,0 +1,48 @@
+Error: Cannot find valid synthetic library module for operator 'MOD_UNS_OP'. (SYNDB-34)
+Information: Updating design information... (UID-85)
+Warning: Design 'topLevel_1' contains 2 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : topLevel_1
+Version: F-2011.09-SP3
+Date   : Thu Apr 29 12:46:00 2021
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: RegManUn/curr_state_reg[2]
+              (rising edge-triggered flip-flop)
+  Endpoint: SPILL (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  topLevel_1         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  RegManUn/curr_state_reg[2]/clocked_on (**SEQGEN**)      0.00 #     0.00 r
+  RegManUn/curr_state_reg[2]/Q (**SEQGEN**)               0.00       0.00 r
+  RegManUn/I_6/Z (GTECH_NOT)                              0.00       0.00 f
+  RegManUn/C586/Z (GTECH_OR2)                             0.00       0.01 f
+  RegManUn/C587/Z (GTECH_OR2)                             0.00       0.01 f
+  RegManUn/I_12/Z (GTECH_NOT)                             0.00       0.01 r
+  RegManUn/B_14/Z (GTECH_BUF)                             0.00       0.01 r
+  RegManUn/C884/Z_0 (*SELECT_OP_2.1_2.1_1)                0.01       0.02 r
+  RegManUn/SPILL (RMU_M8_N8_F3_VIRTUAL_ADDR_SIZE5_PHY_ADDR_SIZE6)
+                                                          0.00       0.02 r
+  SPILL (out)                                             0.00       0.02 r
+  data arrival time                                                  0.02
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

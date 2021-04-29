@@ -16,6 +16,7 @@
 	-Parametric P4Adder
 	-Parametric BoothMultiplier
 
-# LAB3: [TO BE COMPLETED]
+# LAB3: [COMPLETED]
 	-Parametric register file
 	-Parametric windowed register file
+	-SIPISO ALU synthesis

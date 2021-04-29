@@ -1,0 +1,33 @@
+#@ ##############################################################################
+#@ # Analysis of the timing and area perfomances of the unconstrained 32-bits register file
+
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB3/WindowedRegisterFile/syn/constants.vhd}
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB3/WindowedRegisterFile/syn/registerfile.vhd}
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB3/WindowedRegisterFile/syn/RMU.vhd}
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB3/WindowedRegisterFile/syn/topLevel.vhd}
+elaborate topLevel -architecture STRUCT -library WORK
+compile -exact_map
+
+report_timing > topLevel_timingUnconstrained.txt
+report_area > topLevel_areaUnconstrained.txt
+
+#@ ##############################################################################
+#@ # Generation of the clock signal and analysis of the real timing results
+set period 2
+create_clock -name "CLK" -period $period CLK
+compile -exact_map
+
+report_timing > regFile_timingClocked.txt
+
+#@ ##############################################################################
+#@ # Analysis of the timing and area perfomances of the constrained 32-bits register file
+set_max_delay $period -from [all_inputs] -to [all_outputs]
+compile -exact_map
+
+report_timing > topLevel_timingOptimized.txt
+report_area > topLevel_areaOptimized.txt
+
+#@ ##############################################################################
+#@ # Generation of the synthesized netlist
+
+write -hierarchy -format vhdl -output /home/ms21.4/Desktop/Microelectronic-systems/LAB3/WindowedRegisterFile/syn/topLevel_netlistOptimized.vhdl

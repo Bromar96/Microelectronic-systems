@@ -1,0 +1,30 @@
+#@ ##############################################################################
+#@ # Analysis of the timing and area perfomances of the unconstrained 32-bits register file
+
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB3/RegisterFile/syn/registerfile.vhd}
+elaborate REGISTER_FILE -architecture BEH -library WORK -parameters "WORD_SIZE = 32, ADDR_SIZE = 5"
+compile -exact_map
+
+report_timing > regFile_timingUnconstrained.txt
+report_area > regFile_areaUnconstrained.txt
+
+#@ ##############################################################################
+#@ # Generation of the clock signal and analysis of the real timing results
+set period 2
+create_clock -name "CLK" -period $period CLK
+compile -exact_map
+
+report_timing > regFile_timingClocked.txt
+
+#@ ##############################################################################
+#@ # Analysis of the timing and area perfomances of the constrained 32-bits register file
+set_max_delay $period -from [all_inputs] -to [all_outputs]
+compile -exact_map
+
+report_timing > regFile_timingOptimized.txt
+report_area > regFile_areaOptimized.txt
+
+#@ ##############################################################################
+#@ # Generation of the synthesized netlist
+
+write -hierarchy -format vhdl -output /home/ms21.4/Desktop/Microelectronic-systems/LAB3/RegisterFile/syn/regFile_netlistOptimized.vhdl

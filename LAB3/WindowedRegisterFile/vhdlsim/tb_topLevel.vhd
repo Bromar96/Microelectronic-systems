@@ -84,9 +84,9 @@ begin
 	end process;
 
 
-	--test read,write wothout previous call/ret WRITE & READ ARE SYNCH
 	process
 	begin
+	--test A read,write without previous call/ret WRITE & READ ARE SYNCH
 		RST<='1';
 		ENABLE<='0';
 		WRITE<='0';
@@ -109,7 +109,33 @@ begin
 		READ1<='1';
 		ADDRESS_READ1<="01111";
 		wait for (period/2 + HOLD);
+		wait for period;
+		wait for period;
+		--TEST B   CALLS until ack
+		RST<='1';
+		ENABLE<='0';
+		WRITE<='0';
+		READ1<='0';
+		READ2<='0';
+		CALL<='0';
+		RET<='0';
+		ACK<='0';
+		wait for (period);
+		RST<='0';
+		ENABLE <='1';
+		wait for (period/2 - HOLD);
+		wait for (period/2 - SETUP); 
+		CALL <='1';
+		wait for (period/2 + HOLD);
+		wait for HOLD; 
+		--WRITE ON REG(31) of the 1st, 2nd, 3rd .. windows	  
+		WRITE<='1';
+		ADDRESS_WRITE <= (others=>'1'); 
+		DATAIN <= x"0000000A";
+		--Keeps calling until a spill is needed, then stays idle in ACK state
 		wait;
+		
+
 	end process;
 
 

@@ -1,0 +1,43 @@
+#@ ##############################################################################
+#@ # Analysis of the timing and power perfomances of the unconstrained sipisoAlu
+
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB3/sipisoAlu/syn/sipisoalu.vhd}
+analyze -library WORK -format vhdl {/home/ms21.4/Desktop/Microelectronic-systems/LAB3/sipisoAlu/syn/sipisoAluControl.vhd}
+elaborate SIPISOALU -architecture A -library WORK
+compile -exact_map
+
+report_timing > sipisoAlu_timingUnconstrained.rpt
+report_power > sipisoAlu_powerUnconstrained_summaryOnly.rpt
+report_power -cell > sipisoAlu_powerUnconstrained_cellsOnly.rpt
+report_power -net > sipisoAlu_powerUnconstrained_netsOnly.rpt
+
+#@ ##############################################################################
+#@ # Analysis of the power perfomances of the clocked sipisoAlu
+# 0.27 = DataArrivalTime from critical pat
+set clockPeriod 0.27
+create_clock -name "CLK" -period $clockPeriod CLK
+
+report_power > sipisoAlu_powerClocked.rpt
+
+#@ ##############################################################################
+#@ # Analysis of the timing and power perfomances of the timing constrained sipisoAlu
+
+set_max_delay $clockPeriod -from [all_inputs] -to [all_outputs]
+compile -map_effort high
+
+report_timing > sipisoAlu_timingConstrained1.rpt
+report_power > sipisoAlu_powerConstrained1.rpt
+
+#@ ##############################################################################
+#@ # Analysis of the timing and power perfomances of the power constrained sipisoAlu
+
+set_max_dynamic_power 500 uW
+compile -map_effort high 
+
+report_timing > sipisoAlu_timingConstrained2.rpt
+report_power > sipisoAlu_powerConstrained2.rpt
+report_power -cell > sipisoAlu_powerConstrained_cellsOnly.rpt
+report_power -net > sipisoAlu_powerConstrained_netsOnly.rpt
+
+write -hierarchy -format vhdl -output /home/ms21.4/Desktop/Microelectronic-systems/LAB3/sipisoAlu/syn/sipisoAlu_synthesizedNetlist.vhdl
+
