@@ -20,3 +20,8 @@
 	-Parametric register file
 	-Parametric windowed register file
 	-SIPISO ALU synthesis
+
+# LAB4: [COMPLETED]
+	-hardwired control unit, basic instructions
+	-fsm control unit, basic instructions
+	-microprogrammed control unit, basic instructions
